@@ -6,7 +6,10 @@
 export type {
   default as ConstructPositionMap
 } from './construct-position-map.mts'
-export type { default as ConstructRecord } from './construct-record.mts'
+export type {
+  default as ConstructRecord,
+  Numeric
+} from './construct-record.mts'
 export type { default as Construct } from './construct.mts'
 export type { default as ContentTypeMap } from './content-type-map.mts'
 export type { default as Effects } from './effects.mts'

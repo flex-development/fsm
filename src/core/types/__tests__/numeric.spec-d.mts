@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Numeric
- * @module fsm/parse/types/tests/unit-d/Numeric
+ * @module fsm/core/types/tests/unit-d/Numeric
  */
 
 import type TestSubject from '../numeric.mts'

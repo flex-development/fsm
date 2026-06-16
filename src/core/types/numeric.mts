@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - Numeric
- * @module fsm/parse/types/Numeric
+ * @module fsm/core/types/Numeric
  */
 
 /**

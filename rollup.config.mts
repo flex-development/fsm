@@ -115,6 +115,18 @@ export default subdomains.map((subdomain: Dirent): RollupOptions => {
                 specifier: string | undefined
               ) => {
                 ok(specifier, 'expected `specifier`')
+
+                // re-exporting `Numeric` from `@flex-development/fsm/core` only
+                // to remove it is annoying, but unfortunately required because
+                // `rollup-plugin-dts` does not know how to bundle types only
+                // used in index signatures.
+                if (
+                  subdomain.name === 'parse' &&
+                  specifier === `${pkg.name}/core`
+                ) {
+                  return match.replace('export {', 'import type {')
+                }
+
                 return type ? match : match.replace('export {', 'export type {')
               })
 
