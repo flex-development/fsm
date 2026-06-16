@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - EncodingMap
- * @module fsm/interfaces/EncodingMap
+ * @module fsm/parse/interfaces/EncodingMap
  */
 
 /**

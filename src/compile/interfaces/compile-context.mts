@@ -22,7 +22,8 @@ import type {
   Event,
   Point,
   SliceSerialize,
-  Token
+  Token,
+  TokenizeContext
 } from '@flex-development/fsm/parse'
 
 /**
@@ -43,8 +44,8 @@ import type {
  * The compile context itself is both result and value agnostic.
  * Results and intermediate values may be syntax trees, strings, regular
  * expressions, or any other value.
- * {@linkcode CompileResultMap} and {@linkcode CompileValueMap} can be augmented
- * to support libraries and utilities that produce custom values and results.
+ * Both {@linkcode CompileResultMap} and {@linkcode CompileValueMap} can be
+ * augmented to support libraries that produce custom values and results.
  */
 interface CompileContext {
   /**
@@ -114,6 +115,11 @@ interface CompileContext {
 
   /**
    * Get the text spanning the specified range.
+   *
+   * > 👉 **Note**: Returns an empty string by default.
+   * > If a custom serializer has not been defined prior to event compilation,
+   * > a tokenizer's serializer ({@linkcode TokenizeContext.sliceSerialize})
+   * > will be assigned to this field.
    *
    * @see {@linkcode SliceSerialize}
    */

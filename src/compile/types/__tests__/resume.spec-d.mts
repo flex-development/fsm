@@ -7,7 +7,7 @@ import type { CompileContext } from '@flex-development/fsm/compile'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../resume.mts'
 
-describe('unit-d:interfaces/Resume', () => {
+describe('unit-d:types/Resume', () => {
   it('should match [this: CompileContext]', () => {
     expectTypeOf<TestSubject>().thisParameter.toEqualTypeOf<CompileContext>()
   })

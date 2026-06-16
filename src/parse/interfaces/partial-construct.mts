@@ -1,5 +1,5 @@
 /**
- * @file Type Aliases - PartialConstruct
+ * @file Interfaces - PartialConstruct
  * @module fsm/parse/interfaces/PartialConstruct
  */
 

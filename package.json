@@ -39,31 +39,38 @@
     "dist"
   ],
   "exports": {
-    ".": {
-      "fsm": "./src/index.mts",
-      "default": "./dist/index.mjs"
+    "./ast": {
+      "fsm": "./src/ast/index.mts",
+      "default": "./dist/ast/index.d.mts"
+    },
+    "./ast/compile": {
+      "fsm": "./src/ast/compile.mts",
+      "default": "./dist/ast/compile.d.mts"
     },
     "./compile": {
       "fsm": "./src/compile/index.mts",
-      "default": "./dist/compile/index.mjs"
+      "default": "./dist/compile/index.d.mts"
+    },
+    "./core": {
+      "fsm": "./src/core/index.mts",
+      "default": "./dist/core/index.d.mts"
     },
     "./package.json": "./package.json",
     "./parse": {
       "fsm": "./src/parse/index.mts",
-      "default": "./dist/parse/index.mjs"
+      "default": "./dist/parse/index.d.mts"
     }
   },
   "imports": {
     "#tests/*": "./__tests__/*.mts"
   },
-  "types": "./dist/index.d.mts",
   "remarkConfig": {
     "plugins": [
       "@flex-development/remark-preset"
     ]
   },
   "scripts": {
-    "build": "yarn clean:build && tsc -p tsconfig.build.json --noEmit false && rollup -c=rollup.config.mts && trash dist/**/*.mts \"!dist/{compile,parse}/index.d.mts\" && delete-empty dist",
+    "build": "yarn clean:build && tsc -p tsconfig.build.json --noEmit false && rollup -c=rollup.config.mts && trash dist/**/*.mts \"!dist/{ast,compile,core,parse}/index.d.mts\" !dist/ast/compile.d.mts && delete-empty dist",
     "check:ci": "yarn dedupe --check && yarn check:format && yarn check:lint && yarn check:spelling && yarn typecheck && yarn check:types && attw --pack && yarn check:types:build",
     "check:format": "dprint check --incremental=false",
     "check:lint": "eslint --exit-on-fatal-error --max-warnings 0 .",

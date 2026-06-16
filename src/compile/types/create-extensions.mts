@@ -9,7 +9,7 @@ import type {
   Extension,
   Opener
 } from '@flex-development/fsm/compile'
-import type { List } from '@flex-development/fsm/parse'
+import type { List } from '@flex-development/fsm/core'
 
 /**
  * Create an extension or a collection of extensions.

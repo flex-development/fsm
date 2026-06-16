@@ -2,12 +2,9 @@
  * @file Type Tests - Writable
  * @module fsm/parse/types/tests/unit-d/Writable
  */
-import type {
-  Chunk,
-  FileLike,
-  List,
-  Value
-} from '@flex-development/fsm/parse'
+
+import type { List } from '@flex-development/fsm/core'
+import type { Chunk, FileLike, Value } from '@flex-development/fsm/parse'
 import type TestSubject from '../writable.mts'
 
 describe('unit-d:types/Writable', () => {

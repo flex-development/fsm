@@ -9,7 +9,7 @@ import type {
   Extension,
   Opener
 } from '@flex-development/fsm/compile'
-import type { List } from '@flex-development/fsm/parse'
+import type { List } from '@flex-development/fsm/core'
 import type TestSubject from '../create-extensions.mts'
 
 describe('unit-d:types/CreateExtensions', () => {

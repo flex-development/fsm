@@ -1,6 +1,6 @@
 /**
- * @file Interfaces - Construct
- * @module fsm/parse/interfaces/Construct
+ * @file Interfaces - InitialConstruct
+ * @module fsm/parse/interfaces/InitialConstruct
  */
 
 import type { Construct, Initializer } from '@flex-development/fsm/parse'

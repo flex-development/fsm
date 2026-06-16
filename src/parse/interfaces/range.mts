@@ -1,6 +1,6 @@
 /**
- * @file Type Aliases - Range
- * @module fsm/parse/types/Range
+ * @file Interfaces - Range
+ * @module fsm/parse/interfaces/Range
  */
 
 import type { RangeInfo } from '@flex-development/fsm/parse'

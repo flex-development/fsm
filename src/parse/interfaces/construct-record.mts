@@ -1,5 +1,5 @@
 /**
- * @file Type Aliases - ConstructRecord
+ * @file Interfaces - ConstructRecord
  * @module fsm/parse/interfaces/ConstructRecord
  */
 

@@ -6,10 +6,8 @@
 import type { Extension } from '@flex-development/fsm/parse'
 
 /**
- * A filtered, combined extension, where all properties are of `Extension` are
- * optional, but defined.
- *
- * @see {@linkcode Extension}
+ * A filtered, combined extension, where all properties of {@linkcode Extension}
+ * are optional, but defined.
  */
 type NormalizedExtension = {
   [Key in keyof Extension]: Exclude<Extension[Key], null | undefined>

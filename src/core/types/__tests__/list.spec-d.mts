@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - List
- * @module fsm/parse/types/tests/unit-d/List
+ * @module fsm/core/types/tests/unit-d/List
  */
 
 import type TestSubject from '../list.mts'

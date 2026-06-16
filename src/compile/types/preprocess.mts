@@ -13,7 +13,7 @@ import type { Event } from '@flex-development/fsm/parse'
  * Prepare `events` and the initial `result` before compilation begins.
  *
  * This hook can inspect or mutate `events`, initialize compiler data,
- * or manipulate the initial `result` before token handlers run.
+ * or manipulate the initial `result` before event handlers run.
  *
  * @see {@linkcode CompileContext}
  * @see {@linkcode CompileResult}

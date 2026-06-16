@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": false,
     "allowJs": false,
     "checkJs": false,
     "customConditions": ["fsm"],
@@ -16,6 +15,7 @@
   "exclude": ["**/__mocks__/**", "**/__tests__/**"],
   "extends": "./tsconfig.json",
   "files": [
+    "typings/@flex-development/fsm/ast/index.d.mts",
     "typings/@flex-development/fsm/compile/index.d.mts",
     "typings/@flex-development/fsm/parse/index.d.mts"
   ],

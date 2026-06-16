@@ -14,7 +14,7 @@ import type { Point, TokenizeContext } from '@flex-development/fsm/parse'
  * @this {void}
  *
  * @param {Point | null | undefined} [from]
- *  Where to start the tokenizer
+ *  Where to start parsing from
  * @return {TokenizeContext}
  *  The new tokenize context
  */

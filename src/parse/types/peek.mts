@@ -6,7 +6,7 @@
 import type { Code } from '@flex-development/fsm/parse'
 
 /**
- * Get the next character code without changing position.
+ * Get the next character code without advancing the tokenizer.
  *
  * @see {@linkcode Code}
  *

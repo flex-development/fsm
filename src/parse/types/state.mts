@@ -17,7 +17,7 @@ import type { Code } from '@flex-development/fsm/parse'
  * @this {void}
  *
  * @param {Code} code
- *  Th current character code
+ *  The current character code
  * @return {State | undefined}
  *  The next state
  */

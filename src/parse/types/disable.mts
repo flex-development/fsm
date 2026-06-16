@@ -1,6 +1,6 @@
 /**
- * @file Interfaces - Disable
- * @module fsm/parse/interfaces/Disable
+ * @file Type Aliases - Disable
+ * @module fsm/parse/types/Disable
  */
 
 /**

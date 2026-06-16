@@ -1,5 +1,5 @@
 /**
- * @file Type Aliases - NamedConstruct
+ * @file Interfaces - NamedConstruct
  * @module fsm/parse/interfaces/NamedConstruct
  */
 

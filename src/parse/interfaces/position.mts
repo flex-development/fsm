@@ -1,6 +1,6 @@
 /**
- * @file Type Aliases - Position
- * @module fsm/parse/types/Position
+ * @file Interfaces - Position
+ * @module fsm/parse/interfaces/Position
  */
 
 import type { Place } from '@flex-development/fsm/parse'

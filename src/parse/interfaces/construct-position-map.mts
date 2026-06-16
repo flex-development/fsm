@@ -3,11 +3,14 @@
  * @module fsm/parse/interfaces/ConstructPositionMap
  */
 
+import type { ConstructRecord } from '@flex-development/fsm/parse'
+
 /**
  * Registry of construct positions.
  *
- * Positions determine whether a construct, when in a `ConstructRecord`, precede
- * over existing constructs for the same character code when merged.
+ * Positions determine whether a construct,
+ * when in a {@linkcode ConstructRecord}, takes precedence over existing
+ * constructs for the same character code when merged.
  *
  * This interface can be augmented to register custom positions.
  *

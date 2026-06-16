@@ -21,7 +21,7 @@ import type {
 } from '@flex-development/fsm/parse'
 
 /**
- * Context object to assist with tokenization.
+ * Context object to assist with parsing.
  *
  * This interface can be augmented to register custom fields.
  *
@@ -94,8 +94,7 @@ interface TokenizeContext {
   parser: ParseContext
 
   /**
-   * Get the next character code without changing position without changing the
-   * position of the tokenizer.
+   * Get the next character code without advancing the tokenizer.
    *
    * @see {@linkcode Peek}
    */

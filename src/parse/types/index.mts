@@ -31,7 +31,6 @@ export type {
 export type { default as Guard } from './guard.mts'
 export type { default as InitialConstructs } from './initial-constructs.mts'
 export type { default as Initializer } from './initializer.mts'
-export type { default as List } from './list.mts'
 export type { default as NormalizedExtension } from './normalized-extension.mts'
 export type { default as Now } from './now.mts'
 export type { default as Numeric } from './numeric.mts'

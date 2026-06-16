@@ -56,8 +56,17 @@ labels:
   - name: scope:dependencies
     description: dependency updates
     color: 74cefc
+  - name: scope:ast
+    description: '@flex-development/fsm/ast'
+    color: 74cefc
+  - name: scope:ast/compile
+    description: '@flex-development/fsm/ast/compile'
+    color: 74cefc
   - name: scope:compile
     description: '@flex-development/fsm/compile'
+    color: 74cefc
+  - name: scope:core
+    description: '@flex-development/fsm/core'
     color: 74cefc
   - name: scope:install
     description: package install

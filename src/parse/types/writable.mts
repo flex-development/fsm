@@ -3,12 +3,8 @@
  * @module fsm/parse/types/Writable
  */
 
-import type {
-  Chunk,
-  FileLike,
-  List,
-  Value
-} from '@flex-development/fsm/parse'
+import type { List } from '@flex-development/fsm/core'
+import type { Chunk, FileLike, Value } from '@flex-development/fsm/parse'
 
 /**
  * Union of values that can occur where a slice of chunks is expected.

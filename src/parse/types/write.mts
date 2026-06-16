@@ -8,7 +8,7 @@ import type { Event, Writable } from '@flex-development/fsm/parse'
 /**
  * Write a slice of chunks.
  *
- * The eos code (`null`) can be used to signal end of stream.
+ * The eof code (`null`) can be used to signal end of stream.
  *
  * @see {@linkcode Event}
  * @see {@linkcode Writable}

@@ -4,7 +4,7 @@
  */
 
 import type { Handles, Transform } from '@flex-development/fsm/compile'
-import type { List } from '@flex-development/fsm/parse'
+import type { List } from '@flex-development/fsm/core'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../extension.mts'
 
