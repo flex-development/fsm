@@ -52,6 +52,11 @@ interface Construct {
   concrete?: boolean | null | undefined
 
   /**
+   * For containers, a continuation construct.
+   */
+  continuation?: Construct | null | undefined
+
+  /**
    * The name of the construct, used to toggle constructs off.
    */
   name?: string | null | undefined

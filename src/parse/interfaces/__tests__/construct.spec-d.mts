@@ -25,6 +25,12 @@ describe('unit-d:interfaces/Construct', () => {
       .toEqualTypeOf<Nilable<boolean>>()
   })
 
+  it('should match [continuation?: Construct | null | undefined]', () => {
+    expectTypeOf<TestSubject>()
+      .toHaveProperty('continuation')
+      .toEqualTypeOf<Nilable<TestSubject>>()
+  })
+
   it('should match [name?: string | null | undefined]', () => {
     expectTypeOf<TestSubject>()
       .toHaveProperty('name')
