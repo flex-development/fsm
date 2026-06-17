@@ -5,6 +5,7 @@
 
 import type {
   ConstructPosition,
+  Exiter,
   Guard,
   Resolver,
   Tokenizer
@@ -29,6 +30,12 @@ describe('unit-d:interfaces/Construct', () => {
     expectTypeOf<TestSubject>()
       .toHaveProperty('continuation')
       .toEqualTypeOf<Nilable<TestSubject>>()
+  })
+
+  it('should match [exit?: Exiter | null | undefined]', () => {
+    expectTypeOf<TestSubject>()
+      .toHaveProperty('exit')
+      .toEqualTypeOf<Nilable<Exiter>>()
   })
 
   it('should match [name?: string | null | undefined]', () => {

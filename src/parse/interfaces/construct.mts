@@ -6,6 +6,7 @@
 import type {
   ConstructPosition,
   ConstructRecord,
+  Exiter,
   Guard,
   Resolver,
   Tokenizer
@@ -55,6 +56,13 @@ interface Construct {
    * For containers, a continuation construct.
    */
   continuation?: Construct | null | undefined
+
+  /**
+   * For containers, a final exit hook.
+   *
+   * @see {@linkcode Exiter}
+   */
+  exit?: Exiter | null | undefined
 
   /**
    * The name of the construct, used to toggle constructs off.

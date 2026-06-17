@@ -26,6 +26,7 @@ export type { default as Enter } from './enter.mts'
 export type { default as EventType } from './event-type.mts'
 export type { default as Event } from './event.mts'
 export type { default as Exit } from './exit.mts'
+export type { default as Exiter } from './exiter.mts'
 export type { default as Extensions } from './extensions.mts'
 export type { default as FileLike } from './file-like.mts'
 export type {
