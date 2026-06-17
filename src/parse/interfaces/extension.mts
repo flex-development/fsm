@@ -11,6 +11,10 @@ import type {
 /**
  * A syntax extension.
  *
+ * Syntax extensions are objects whose fields are typically the names of hooks,
+ * referring to where constructs "hook" into. The fields at such objects are
+ * character codes, mapping to constructs as values.
+ *
  * This interface can be augmented to register custom fields.
  *
  * @example

@@ -1,0 +1,16 @@
+/**
+ * @file Type Tests - ParseOptions
+ * @module fsm/parse/interfaces/tests/unit-d/ParseOptions
+ */
+
+import type { Extensions } from '@flex-development/fsm/parse'
+import type { Nilable } from '@flex-development/tutils'
+import type TestSubject from '../parse-options.mts'
+
+describe('unit-d:interfaces/ParseOptions', () => {
+  it('should match [extensions?: Extensions | null | undefined]', () => {
+    expectTypeOf<TestSubject>()
+      .toHaveProperty('extensions')
+      .toEqualTypeOf<Nilable<Extensions>>()
+  })
+})
