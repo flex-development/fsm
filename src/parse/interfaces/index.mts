@@ -11,6 +11,7 @@ export type {
   Numeric
 } from './construct-record.mts'
 export type { default as Construct } from './construct.mts'
+export type { default as ContainerState } from './container-state.mts'
 export type { default as ContentTypeMap } from './content-type-map.mts'
 export type { default as Effects } from './effects.mts'
 export type { default as EncodingMap } from './encoding-map.mts'

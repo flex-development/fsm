@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - ContentTypeMap
- * @module fsm/parse/interfaces/tests/unit-d/TokenTypeMap
+ * @module fsm/parse/interfaces/tests/unit-d/ContentTypeMap
  */
 
 import type TestSubject from '../content-type-map.mts'

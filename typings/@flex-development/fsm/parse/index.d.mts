@@ -1,6 +1,10 @@
-import type {} from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/fsm/parse'
 
 declare module '@flex-development/fsm/parse' {
+  interface ContainerState {
+    marker?: Code | undefined
+  }
+
   interface ContentTypeMap {
     document: 'document'
   }

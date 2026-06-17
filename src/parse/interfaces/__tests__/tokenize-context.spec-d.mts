@@ -6,6 +6,7 @@
 import type {
   Code,
   Construct,
+  ContainerState,
   CreateToken,
   DefineSkip,
   Event,
@@ -22,6 +23,12 @@ import type TestSubject from '../tokenize-context.mts'
 describe('unit-d:interfaces/TokenizeContext', () => {
   it('should match [code: Code]', () => {
     expectTypeOf<TestSubject>().toHaveProperty('code').toEqualTypeOf<Code>()
+  })
+
+  it('should match [containerState?: ContainerState | null | undefined]', () => {
+    expectTypeOf<TestSubject>()
+      .toHaveProperty('containerState')
+      .toEqualTypeOf<Nilable<ContainerState>>()
   })
 
   it('should match [currentConstruct?: Construct | null | undefined]', () => {

@@ -6,6 +6,7 @@
 import type {
   Code,
   Construct,
+  ContainerState,
   CreateToken,
   DefineSkip,
   Encoding,
@@ -39,6 +40,18 @@ interface TokenizeContext {
    * @see {@linkcode Code}
    */
   code: Code
+
+  /**
+   * Shared state set when parsing containers.
+   *
+   * Containers are typically parsed in separate phases:
+   * their first line (`tokenize`), continued lines (`continuation.tokenize`),
+   * and finally `exit`.
+   * This record can be used to store information between these hooks.
+   *
+   * @see {@linkcode ContainerState}
+   */
+  containerState?: ContainerState | null | undefined
 
   /**
    * The current construct.
