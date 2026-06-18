@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - CompileValue
- * @module fsm/compile/types/tests/unit-d/CompileValue
+ * @module mark/compile/types/tests/unit-d/CompileValue
  */
 
-import type { CompileValueMap } from '@flex-development/fsm/compile'
+import type { CompileValueMap } from '@flex-development/mark/compile'
 import type TestSubject from '../compile-value.mts'
 
 describe('unit-d:types/CompileValue', () => {

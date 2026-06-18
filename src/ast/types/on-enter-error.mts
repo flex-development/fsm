@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - OnEnterError
- * @module fsm/ast/types/OnEnterError
+ * @module mark/ast/types/OnEnterError
  */
 
-import type { CompileContext } from '@flex-development/fsm/ast'
-import type { Token, TokenType } from '@flex-development/fsm/parse'
+import type { CompileContext } from '@flex-development/mark/ast'
+import type { Token, TokenType } from '@flex-development/mark/parse'
 
 /**
  * Handle the case where the `right` token is open,

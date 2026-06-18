@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - SerializeNode
- * @module fsm/ast/types/SerializeNode
+ * @module mark/ast/types/SerializeNode
  */
 
-import type { Node, Resume } from '@flex-development/fsm/ast'
+import type { Node, Resume } from '@flex-development/mark/ast'
 
 /**
  * Serialize a node.

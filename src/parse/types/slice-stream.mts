@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - SliceStream
- * @module fsm/parse/types/SliceStream
+ * @module mark/parse/types/SliceStream
  */
 
-import type { Chunk, Range } from '@flex-development/fsm/parse'
+import type { Chunk, Range } from '@flex-development/mark/parse'
 
 /**
  * Get the chunks spanning `range`.

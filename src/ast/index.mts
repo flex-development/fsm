@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - ast
- * @module fsm/ast
+ * @module mark/ast
  */
 
 export type * from './interfaces/index.mts'

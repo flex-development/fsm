@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Root
- * @module fsm/ast/interfaces/tests/unit-d/Root
+ * @module mark/ast/interfaces/tests/unit-d/Root
  */
 
 import type { Literal, Node, Parent } from 'unist'

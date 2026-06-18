@@ -1,13 +1,13 @@
 /**
  * @file Interfaces - Config
- * @module fsm/compile/interfaces/Config
+ * @module mark/compile/interfaces/Config
  */
 
 import type {
   Extension,
   Handles,
   Transform
-} from '@flex-development/fsm/compile'
+} from '@flex-development/mark/compile'
 
 /**
  * The event compilation configuration.
@@ -15,7 +15,7 @@ import type {
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/compile' {
+ *  declare module '@flex-development/mark/compile' {
  *    interface Extension {
  *      canContainEols: string[]
  *    }

@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - CompileResultMap
- * @module fsm/compile/interfaces/CompileResultMap
+ * @module mark/compile/interfaces/CompileResultMap
  */
 
-import type { Compile } from '@flex-development/fsm/compile'
+import type { Compile } from '@flex-development/mark/compile'
 
 /**
  * Registry of event compilation results.
@@ -15,7 +15,7 @@ import type { Compile } from '@flex-development/fsm/compile'
  * This interface can be augmented to register custom results.
  *
  * @example
- *  declare module '@flex-development/fsm/compile' {
+ *  declare module '@flex-development/mark/compile' {
  *    interface CompileResultMap {
  *      tree: Root
  *    }

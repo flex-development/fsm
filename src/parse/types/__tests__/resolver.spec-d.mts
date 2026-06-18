@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Resolver
- * @module fsm/parse/types/tests/unit-d/Resolver
+ * @module mark/parse/types/tests/unit-d/Resolver
  */
 
-import type { Event, TokenizeContext } from '@flex-development/fsm/parse'
+import type { Event, TokenizeContext } from '@flex-development/mark/parse'
 import type TestSubject from '../resolver.mts'
 
 describe('unit-d:types/Resolver', () => {

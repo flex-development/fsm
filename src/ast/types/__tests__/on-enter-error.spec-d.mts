@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - OnEnterError
- * @module fsm/ast/types/tests/unit-d/OnEnterError
+ * @module mark/ast/types/tests/unit-d/OnEnterError
  */
 
-import type { CompileContext } from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+import type { CompileContext } from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../on-enter-error.mts'
 
 describe('unit-d:types/OnEnterError', () => {

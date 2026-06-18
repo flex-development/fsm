@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - CompileResult
- * @module fsm/compile/types/CompileResult
+ * @module mark/compile/types/CompileResult
  */
 
-import type { Compile, CompileResultMap } from '@flex-development/fsm/compile'
+import type { Compile, CompileResultMap } from '@flex-development/mark/compile'
 
 /**
  * Union of registered event compilation results.

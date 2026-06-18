@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - TokenTypeMap
- * @module fsm/parse/interfaces/tests/unit-d/TokenTypeMap
+ * @module mark/parse/interfaces/tests/unit-d/TokenTypeMap
  */
 
 import type TestSubject from '../token-type-map.mts'

@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Transform
- * @module fsm/ast/types/Transform
+ * @module mark/ast/types/Transform
  */
 
-import type { Tree } from '@flex-development/fsm/ast'
+import type { Tree } from '@flex-development/mark/ast'
 
 /**
  * Transform a syntax `tree`.

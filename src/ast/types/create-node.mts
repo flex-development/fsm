@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - CreateNode
- * @module fsm/ast/types/CreateNode
+ * @module mark/ast/types/CreateNode
  */
 
-import type { Node } from '@flex-development/fsm/ast'
-import type { Token, TokenType } from '@flex-development/fsm/parse'
+import type { Node } from '@flex-development/mark/ast'
+import type { Token, TokenType } from '@flex-development/mark/parse'
 
 /**
  * Create a node from a token.

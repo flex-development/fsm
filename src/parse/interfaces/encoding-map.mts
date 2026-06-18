@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - EncodingMap
- * @module fsm/parse/interfaces/EncodingMap
+ * @module mark/parse/interfaces/EncodingMap
  */
 
 /**
@@ -12,7 +12,7 @@
  * This interface can be augmented to register custom encodings.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface EncodingMap {
  *      custom: 'custom'
  *    }

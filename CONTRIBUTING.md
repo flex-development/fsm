@@ -15,8 +15,8 @@ Follow the steps below to setup your local development environment:
 1. Clone repository
 
    ```sh
-   git clone https://github.com/flex-development/fsm
-   cd fsm
+   git clone https://github.com/flex-development/mark
+   cd mark
    ```
 
 2. Install binaries with [Homebrew][]
@@ -261,7 +261,7 @@ A well-written issue
 When you're ready to submit your changes, open a pull request (PR) against `main`:
 
 ```sh
-https://github.com/flex-development/fsm/compare/main...$branch
+https://github.com/flex-development/mark/compare/main...$branch
 ```
 
 where `$branch` is the name of the branch you'd like to merge into `main`.
@@ -370,7 +370,7 @@ e.g:
 
 [ohmyzsh]: https://github.com/ohmyzsh/ohmyzsh
 
-[qa]: https://github.com/flex-development/fsm/discussions/new?category=q-a
+[qa]: https://github.com/flex-development/mark/discussions/new?category=q-a
 
 [tbd-short-lived-feature-branches]: https://trunkbaseddevelopment.com/styles/#short-lived-feature-branches
 

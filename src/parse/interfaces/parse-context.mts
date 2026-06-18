@@ -1,12 +1,12 @@
 /**
  * @file Interfaces - ParseContext
- * @module fsm/parse/interfaces/ParseContext
+ * @module mark/parse/interfaces/ParseContext
  */
 
 import type {
   FullNormalizedExtension,
   Parsers
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Context object to assist with parsing.
@@ -14,7 +14,7 @@ import type {
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface ParseContext {
  *      lazy: Record<number, boolean>
  *    }

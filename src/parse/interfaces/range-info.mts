@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - RangeInfo
- * @module fsm/parse/interfaces/RangeInfo
+ * @module mark/parse/interfaces/RangeInfo
  */
 
 /**

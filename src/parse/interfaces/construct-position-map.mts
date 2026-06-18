@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - ConstructPositionMap
- * @module fsm/parse/interfaces/ConstructPositionMap
+ * @module mark/parse/interfaces/ConstructPositionMap
  */
 
-import type { ConstructRecord } from '@flex-development/fsm/parse'
+import type { ConstructRecord } from '@flex-development/mark/parse'
 
 /**
  * Registry of construct positions.
@@ -15,7 +15,7 @@ import type { ConstructRecord } from '@flex-development/fsm/parse'
  * This interface can be augmented to register custom positions.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface ConstructPositionMap {
  *      beforeAll: 'beforeAll'
  *    }

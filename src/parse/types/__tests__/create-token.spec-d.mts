@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - CreateToken
- * @module fsm/parse/types/tests/unit-d/CreateToken
+ * @module mark/parse/types/tests/unit-d/CreateToken
  */
 
 import type {
   Token,
   TokenInfo,
   TokenType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../create-token.mts'
 
 describe('unit-d:types/CreateToken', () => {

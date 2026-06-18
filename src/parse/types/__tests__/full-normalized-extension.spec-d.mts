@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - FullNormalizedExtension
- * @module fsm/parse/types/tests/unit-d/FullNormalizedExtension
+ * @module mark/parse/types/tests/unit-d/FullNormalizedExtension
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   ContentType,
   Extension,
   NormalizedExtension
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type { NIL } from '@flex-development/tutils'
 import type TestSubject from '../full-normalized-extension.mts'
 

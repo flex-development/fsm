@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - CreateValue
- * @module fsm/compile/types/tests/unit-d/CreateValue
+ * @module mark/compile/types/tests/unit-d/CreateValue
  */
 
-import type { CompileValue } from '@flex-development/fsm/compile'
-import type { Token } from '@flex-development/fsm/parse'
+import type { CompileValue } from '@flex-development/mark/compile'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../create-value.mts'
 
 describe('unit-d:types/CreateValue', () => {

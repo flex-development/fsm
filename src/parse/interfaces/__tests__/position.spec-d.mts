@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Position
- * @module fsm/parse/interfaces/tests/unit-d/Position
+ * @module mark/parse/interfaces/tests/unit-d/Position
  */
 
-import type { Place } from '@flex-development/fsm/parse'
+import type { Place } from '@flex-development/mark/parse'
 import type TestSubject from '../position.mts'
 
 describe('unit-d:interfaces/Position', () => {

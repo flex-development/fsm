@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - OnExitError
- * @module fsm/compile/types/OnExitError
+ * @module mark/compile/types/OnExitError
  */
 
-import type { CompileContext } from '@flex-development/fsm/compile'
-import type { Token, TokenType } from '@flex-development/fsm/parse'
+import type { CompileContext } from '@flex-development/mark/compile'
+import type { Token, TokenType } from '@flex-development/mark/parse'
 
 /**
  * Handle the case where the `right` token is open,

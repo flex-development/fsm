@@ -1,6 +1,6 @@
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 
-declare module '@flex-development/fsm/parse' {
+declare module '@flex-development/mark/parse' {
   interface ContainerState {
     marker?: Code | undefined
   }

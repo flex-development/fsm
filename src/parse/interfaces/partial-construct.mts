@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - PartialConstruct
- * @module fsm/parse/interfaces/PartialConstruct
+ * @module mark/parse/interfaces/PartialConstruct
  */
 
-import type { Construct } from '@flex-development/fsm/parse'
+import type { Construct } from '@flex-development/mark/parse'
 
 /**
  * A partial construct.

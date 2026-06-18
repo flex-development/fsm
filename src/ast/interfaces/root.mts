@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - Root
- * @module fsm/ast/interfaces/Root
+ * @module mark/ast/interfaces/Root
  */
 
 import type unist from 'unist'

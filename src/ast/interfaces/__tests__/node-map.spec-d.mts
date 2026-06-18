@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - NodeMap
- * @module fsm/ast/interfaces/tests/unit-d/NodeMap
+ * @module mark/ast/interfaces/tests/unit-d/NodeMap
  */
 
-import type { Fragment } from '@flex-development/fsm/ast'
+import type { Fragment } from '@flex-development/mark/ast'
 import type TestSubject from '../node-map.mts'
 
 describe('unit-d:interfaces/NodeMap', () => {

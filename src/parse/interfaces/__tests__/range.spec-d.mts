@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Range
- * @module fsm/parse/interfaces/tests/unit-d/Range
+ * @module mark/parse/interfaces/tests/unit-d/Range
  */
 
-import type { RangeInfo } from '@flex-development/fsm/parse'
+import type { RangeInfo } from '@flex-development/mark/parse'
 import type TestSubject from '../range.mts'
 
 describe('unit-d:interfaces/Range', () => {

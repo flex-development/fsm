@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - OnExitError
- * @module fsm/compile/types/tests/unit-d/OnExitError
+ * @module mark/compile/types/tests/unit-d/OnExitError
  */
 
-import type { CompileContext } from '@flex-development/fsm/compile'
-import type { Token } from '@flex-development/fsm/parse'
+import type { CompileContext } from '@flex-development/mark/compile'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../on-exit-error.mts'
 
 describe('unit-d:types/OnExitError', () => {

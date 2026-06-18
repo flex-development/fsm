@@ -1,12 +1,12 @@
 /**
  * @file Type Tests - Extension
- * @module fsm/parse/interfaces/tests/unit-d/Extension
+ * @module mark/parse/interfaces/tests/unit-d/Extension
  */
 
 import type {
   ContentExtensions,
   Disable
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../extension.mts'
 

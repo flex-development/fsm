@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - ParseOptions
- * @module fsm/parse/interfaces/tests/unit-d/ParseOptions
+ * @module mark/parse/interfaces/tests/unit-d/ParseOptions
  */
 
-import type { Extensions } from '@flex-development/fsm/parse'
+import type { Extensions } from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../parse-options.mts'
 

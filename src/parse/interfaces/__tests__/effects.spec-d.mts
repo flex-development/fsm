@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Effects
- * @module fsm/parse/interfaces/tests/unit-d/Effects
+ * @module mark/parse/interfaces/tests/unit-d/Effects
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   Consume,
   Enter,
   Exit
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../effects.mts'
 
 describe('unit-d:interfaces/Effects', () => {

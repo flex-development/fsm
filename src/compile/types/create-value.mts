@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - CreateValue
- * @module fsm/compile/types/CreateValue
+ * @module mark/compile/types/CreateValue
  */
 
-import type { CompileValue } from '@flex-development/fsm/compile'
-import type { Token, TokenType } from '@flex-development/fsm/parse'
+import type { CompileValue } from '@flex-development/mark/compile'
+import type { Token, TokenType } from '@flex-development/mark/parse'
 
 /**
  * Create a compilation value from a token.

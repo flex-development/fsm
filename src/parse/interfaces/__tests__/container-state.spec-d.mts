@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - ContainerState
- * @module fsm/parse/interfaces/tests/unit-d/ContainerState
+ * @module mark/parse/interfaces/tests/unit-d/ContainerState
  */
 
 import type TestSubject from '../container-state.mts'

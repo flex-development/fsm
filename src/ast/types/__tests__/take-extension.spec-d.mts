@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - TakeExtension
- * @module fsm/ast/types/tests/unit-d/TakeExtension
+ * @module mark/ast/types/tests/unit-d/TakeExtension
  */
 
-import type { Config, Extension } from '@flex-development/fsm/ast'
+import type { Config, Extension } from '@flex-development/mark/ast'
 import type TestSubject from '../take-extension.mts'
 
 describe('unit-d:types/TakeExtension', () => {

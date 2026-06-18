@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - Place
- * @module fsm/parse/interfaces/Place
+ * @module mark/parse/interfaces/Place
  */
 
-import type { Point, RangeInfo } from '@flex-development/fsm/parse'
+import type { Point, RangeInfo } from '@flex-development/mark/parse'
 
 /**
  * One place in a file, with additional chunk metadata.

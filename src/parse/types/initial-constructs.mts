@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - InitialConstructs
- * @module fsm/parse/types/InitialConstructs
+ * @module mark/parse/types/InitialConstructs
  */
 
 import type {
   ContentType,
   ContentTypeMap,
   InitialConstruct
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Map, where each key is a content type and each value is an initial construct.

@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Value
- * @module fsm/parse/types/tests/unit-d/Value
+ * @module mark/parse/types/tests/unit-d/Value
  */
 
 import type TestSubject from '../value.mts'

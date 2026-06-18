@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - ContainerState
- * @module fsm/parse/interfaces/ContainerState
+ * @module mark/parse/interfaces/ContainerState
  */
 
 /**
@@ -9,7 +9,7 @@
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface ContainerState {
  *      initialBlankLine?: boolean | null | undefined
  *    }

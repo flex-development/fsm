@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - TokenFields
- * @module fsm/parse/interfaces/tests/unit-d/TokenFields
+ * @module mark/parse/interfaces/tests/unit-d/TokenFields
  */
 
 import type {
   ContentType,
   Token,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../token-fields.mts'
 

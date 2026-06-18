@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - Position
- * @module fsm/parse/interfaces/Position
+ * @module mark/parse/interfaces/Position
  */
 
-import type { Place } from '@flex-development/fsm/parse'
+import type { Place } from '@flex-development/mark/parse'
 
 /**
  * Range between two points in a source file.

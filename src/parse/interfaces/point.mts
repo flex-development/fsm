@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - Point
- * @module fsm/parse/interfaces/Point
+ * @module mark/parse/interfaces/Point
  */
 
-import type { Column, Line, Offset } from '@flex-development/fsm/parse'
+import type { Column, Line, Offset } from '@flex-development/mark/parse'
 
 /**
  * One place in a piece of source content.

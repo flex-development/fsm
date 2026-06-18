@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Opener
- * @module fsm/ast/types/tests/unit-d/Opener
+ * @module mark/ast/types/tests/unit-d/Opener
  */
 
-import type { CreateNode, Handle } from '@flex-development/fsm/ast'
+import type { CreateNode, Handle } from '@flex-development/mark/ast'
 import type TestSubject from '../opener.mts'
 
 describe('unit-d:types/Opener', () => {

@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Point
- * @module fsm/parse/interfaces/tests/unit-d/Point
+ * @module mark/parse/interfaces/tests/unit-d/Point
  */
 
 import type { Column, Line, Offset } from '@flex-development/unist-util-types'

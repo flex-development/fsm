@@ -1,10 +1,10 @@
 /**
  * @file Interfaces - ConstructRecord
- * @module fsm/parse/interfaces/ConstructRecord
+ * @module mark/parse/interfaces/ConstructRecord
  */
 
-import type { Numeric } from '@flex-development/fsm/core'
-import type { ConstructPack } from '@flex-development/fsm/parse'
+import type { Numeric } from '@flex-development/mark/core'
+import type { ConstructPack } from '@flex-development/mark/parse'
 
 /**
  * Several constructs, mapped from their initial codes.
@@ -32,4 +32,4 @@ export type { ConstructRecord as default }
 // re-exporting is annoying, but unfortunately required.
 // `rollup-plugin-dts` does not know how to bundle types only used in index
 // signatures, resulting in missing imported types and postbuild errors.
-export type { Numeric } from '@flex-development/fsm/core'
+export type { Numeric } from '@flex-development/mark/core'

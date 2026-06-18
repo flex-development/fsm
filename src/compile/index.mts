@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - compile
- * @module fsm/compile
+ * @module mark/compile
  */
 
 export type * from './interfaces/index.mts'

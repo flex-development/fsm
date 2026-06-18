@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Write
- * @module fsm/parse/types/Write
+ * @module mark/parse/types/Write
  */
 
-import type { Event, Writable } from '@flex-development/fsm/parse'
+import type { Event, Writable } from '@flex-development/mark/parse'
 
 /**
  * Write a slice of chunks.

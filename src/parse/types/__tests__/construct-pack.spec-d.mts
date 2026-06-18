@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - ConstructPack
- * @module fsm/parse/types/tests/unit-d/ConstructPack
+ * @module mark/parse/types/tests/unit-d/ConstructPack
  */
 
-import type { Construct } from '@flex-development/fsm/parse'
+import type { Construct } from '@flex-development/mark/parse'
 import type TestSubject from '../construct-pack.mts'
 
 describe('unit-d:types/ConstructPack', () => {

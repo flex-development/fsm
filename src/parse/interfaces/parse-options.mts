@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - ParseOptions
- * @module fsm/parse/interfaces/ParseOptions
+ * @module mark/parse/interfaces/ParseOptions
  */
 
-import type { Extensions } from '@flex-development/fsm/parse'
+import type { Extensions } from '@flex-development/mark/parse'
 
 /**
  * Configuration object defining how to parse.
@@ -11,7 +11,7 @@ import type { Extensions } from '@flex-development/fsm/parse'
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface ParseOptions {
  *      from?: Point | null | undefined
  *    }

@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - SliceSerialize
- * @module fsm/parse/types/tests/unit-d/SliceSerialize
+ * @module mark/parse/types/tests/unit-d/SliceSerialize
  */
 
-import type { Range, SerializeOptions } from '@flex-development/fsm/parse'
+import type { Range, SerializeOptions } from '@flex-development/mark/parse'
 import type TestSubject from '../slice-serialize.mts'
 
 describe('unit-d:types/SliceSerialize', () => {

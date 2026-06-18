@@ -1,12 +1,12 @@
 /**
  * @file Type Tests - ContentExtensions
- * @module fsm/parse/types/tests/unit-d/ContentExtensions
+ * @module mark/parse/types/tests/unit-d/ContentExtensions
  */
 
 import type {
   ConstructRecord,
   ContentType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../content-extensions.mts'
 
 describe('unit-d:types/ContentExtensions', () => {

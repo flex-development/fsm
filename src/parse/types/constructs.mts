@@ -1,12 +1,12 @@
 /**
  * @file Type Aliases - Constructs
- * @module fsm/parse/types/Constructs
+ * @module mark/parse/types/Constructs
  */
 
 import type {
   ConstructPack,
   ConstructRecord
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * A single construct, list of constructs,

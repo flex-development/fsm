@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - Preprocess
- * @module fsm/ast/types/Preprocess
+ * @module mark/ast/types/Preprocess
  */
 
-import type { CompileContext, Tree } from '@flex-development/fsm/ast'
-import type { Event } from '@flex-development/fsm/parse'
+import type { CompileContext, Tree } from '@flex-development/mark/ast'
+import type { Event } from '@flex-development/mark/parse'
 
 /**
  * Prepare `events` and the initial `tree` before compilation begins.

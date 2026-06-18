@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - Handle
- * @module fsm/compile/types/Handle
+ * @module mark/compile/types/Handle
  */
 
-import type { CompileContext } from '@flex-development/fsm/compile'
-import type { Token, TokenType } from '@flex-development/fsm/parse'
+import type { CompileContext } from '@flex-development/mark/compile'
+import type { Token, TokenType } from '@flex-development/mark/parse'
 
 /**
  * Handle an event token.

@@ -1,14 +1,14 @@
 /**
  * @file Type Aliases - Enter
- * @module fsm/compile/types/Enter
+ * @module mark/compile/types/Enter
  */
 
 import type {
   CompileContext,
   CompileValue,
   OnEnterError
-} from '@flex-development/fsm/compile'
-import type { Token } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/compile'
+import type { Token } from '@flex-development/mark/parse'
 
 /**
  * Enter a compilation value.

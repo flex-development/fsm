@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - FileLike
- * @module fsm/parse/types/FileLike
+ * @module mark/parse/types/FileLike
  */
 
-import type { Value } from '@flex-development/fsm/parse'
+import type { Value } from '@flex-development/mark/parse'
 
 /**
  * A file-like structure.

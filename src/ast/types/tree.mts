@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Tree
- * @module fsm/ast/types/Tree
+ * @module mark/ast/types/Tree
  */
 
-import type { Node, NodeMap, Root } from '@flex-development/fsm/ast'
+import type { Node, NodeMap, Root } from '@flex-development/mark/ast'
 
 /**
  * A syntax tree.

@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - ContentExtensions
- * @module fsm/parse/types/ContentExtensions
+ * @module mark/parse/types/ContentExtensions
  */
 
 import type {
   ConstructRecord,
   ContentType,
   ContentTypeMap
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Map, where each key is a content type and each value is a construct record.

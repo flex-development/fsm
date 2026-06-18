@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - CompileValueMap
- * @module fsm/compile/interfaces/tests/unit-d/CompileValueMap
+ * @module mark/compile/interfaces/tests/unit-d/CompileValueMap
  */
 
 import type TestSubject from '../compile-value-map.mts'

@@ -1,11 +1,11 @@
-# fsm
+# mark
 
-[![github release](https://img.shields.io/github/v/release/flex-development/fsm.svg?include_prereleases\&sort=semver)](https://github.com/flex-development/fsm/releases/latest)
-[![npm](https://img.shields.io/npm/v/@flex-development/fsm.svg)](https://npmjs.com/package/@flex-development/fsm)
-[![npm downloads](https://img.shields.io/npm/dm/@flex-development/fsm.svg)](https://www.npmcharts.com/compare/@flex-development/fsm?interval=30)
-[![install size](https://packagephobia.now.sh/badge?p=@flex-development/fsm)](https://packagephobia.now.sh/result?p=@flex-development/fsm)
-[![minified bundle size](https://badgen.net/bundlephobia/min/@flex-development/fsm?cache)](https://bundlephobia.com/package/@flex-development/fsm)
-[![license](https://img.shields.io/github/license/flex-development/fsm.svg)](LICENSE.md)
+[![github release](https://img.shields.io/github/v/release/flex-development/mark.svg?include_prereleases\&sort=semver)](https://github.com/flex-development/mark/releases/latest)
+[![npm](https://img.shields.io/npm/v/@flex-development/mark.svg)](https://npmjs.com/package/@flex-development/mark)
+[![npm downloads](https://img.shields.io/npm/dm/@flex-development/mark.svg)](https://www.npmcharts.com/compare/@flex-development/mark?interval=30)
+[![install size](https://packagephobia.now.sh/badge?p=@flex-development/mark)](https://packagephobia.now.sh/result?p=@flex-development/mark)
+[![minified bundle size](https://badgen.net/bundlephobia/min/@flex-development/mark?cache)](https://bundlephobia.com/package/@flex-development/mark)
+[![license](https://img.shields.io/github/license/flex-development/mark.svg)](LICENSE.md)
 [![conventional commits](https://img.shields.io/badge/-conventional%20commits-fe5196?logo=conventional-commits\&logoColor=ffffff)](https://conventionalcommits.org)
 [![typescript](https://img.shields.io/badge/-typescript-3178c6?logo=typescript\&logoColor=ffffff)](https://typescriptlang.org)
 [![vitest](https://img.shields.io/badge/-vitest-6e9f18?style=flat\&logo=vitest\&logoColor=ffffff)](https://vitest.dev)
@@ -36,7 +36,7 @@
 In Node.js with [yarn][]:
 
 ```sh
-yarn add @flex-development/fsm
+yarn add @flex-development/mark
 ```
 
 <blockquote>
@@ -56,7 +56,7 @@ yarn add @flex-development/fsm
 
 ### Version
 
-fsm adheres to [semver][].
+mark adheres to [semver][].
 
 ### Contribute
 
@@ -71,12 +71,12 @@ Support long-term stability by sponsoring Flex Development!
 
 ## Related
 
-- [`@flex-development/fsm-compiler`][fsm-compiler] — finite state machine compiler
-- [`@flex-development/fsm-parser`][fsm-parser] — finite state machine parser
+- [`@flex-development/mark-compiler`][mark-compiler] — fsm event compiler
+- [`@flex-development/mark-parser`][mark-parser] — fsm parser
 
-[fsm-compiler]: https://github.com/flex-development/fsm-compiler
+[mark-compiler]: https://github.com/flex-development/mark-compiler
 
-[fsm-parser]: https://github.com/flex-development/fsm-parser
+[mark-parser]: https://github.com/flex-development/mark-parser
 
 [semver]: https://semver.org
 

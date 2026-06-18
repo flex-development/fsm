@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - NamedConstruct
- * @module fsm/parse/interfaces/tests/unit-d/NamedConstruct
+ * @module mark/parse/interfaces/tests/unit-d/NamedConstruct
  */
 
-import type { Construct } from '@flex-development/fsm/parse'
+import type { Construct } from '@flex-development/mark/parse'
 import type TestSubject from '../named-construct.mts'
 
 describe('unit-d:interfaces/NamedConstruct', () => {

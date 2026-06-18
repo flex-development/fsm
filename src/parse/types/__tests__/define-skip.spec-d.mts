@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - DefineSkip
- * @module fsm/parse/types/tests/unit-d/DefineSkip
+ * @module mark/parse/types/tests/unit-d/DefineSkip
  */
 
-import type { Point } from '@flex-development/fsm/parse'
+import type { Point } from '@flex-development/mark/parse'
 import type TestSubject from '../define-skip.mts'
 
 describe('unit-d:types/DefineSkip', () => {

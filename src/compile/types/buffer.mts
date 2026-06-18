@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Buffer
- * @module fsm/compile/types/Buffer
+ * @module mark/compile/types/Buffer
  */
 
-import type { CompileContext, Resume } from '@flex-development/fsm/compile'
+import type { CompileContext, Resume } from '@flex-development/mark/compile'
 
 /**
  * Start capturing output into a temporary compilation value.

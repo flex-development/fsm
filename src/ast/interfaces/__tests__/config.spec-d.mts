@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - Config
- * @module fsm/ast/interfaces/tests/unit-d/Config
+ * @module mark/ast/interfaces/tests/unit-d/Config
  */
 
 import type {
   Extension,
   Handles,
   Transform
-} from '@flex-development/fsm/ast'
+} from '@flex-development/mark/ast'
 import type TestSubject from '../config.mts'
 
 describe('unit-d:interfaces/Config', () => {

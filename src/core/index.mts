@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - core
- * @module fsm/core
+ * @module mark/core
  */
 
 export type * from './types/index.mts'

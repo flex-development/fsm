@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - SerializeNode
- * @module fsm/ast/types/tests/unit-d/SerializeNode
+ * @module mark/ast/types/tests/unit-d/SerializeNode
  */
 
-import type { Node } from '@flex-development/fsm/ast'
+import type { Node } from '@flex-development/mark/ast'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../serialize-node.mts'
 

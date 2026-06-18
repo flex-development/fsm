@@ -1,13 +1,13 @@
 /**
  * @file Interfaces - Token
- * @module fsm/parse/interfaces/Token
+ * @module mark/parse/interfaces/Token
  */
 
 import type {
   Code,
   TokenInfo,
   TokenType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * A span of one (`1`) or more character codes.
@@ -22,7 +22,7 @@ import type {
  * This interface can be augmented to register custom token fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface Token {
  *      value?: string | null | undefined
  *    }

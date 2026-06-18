@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Consume
- * @module fsm/parse/types/tests/unit-d/Consume
+ * @module mark/parse/types/tests/unit-d/Consume
  */
 
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 import type TestSubject from '../consume.mts'
 
 describe('unit-d:types/Consume', () => {

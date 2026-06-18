@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - Enter
- * @module fsm/parse/types/tests/unit-d/Enter
+ * @module mark/parse/types/tests/unit-d/Enter
  */
 
 import type {
   Token,
   TokenFields,
   TokenType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../enter.mts'
 
 describe('unit-d:types/Enter', () => {

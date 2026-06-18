@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - parse
- * @module fsm/parse
+ * @module mark/parse
  */
 
 export type * from './interfaces/index.mts'

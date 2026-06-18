@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Buffer
- * @module fsm/compile/types/tests/unit-d/Buffer
+ * @module mark/compile/types/tests/unit-d/Buffer
  */
 
-import type { CompileContext } from '@flex-development/fsm/compile'
+import type { CompileContext } from '@flex-development/mark/compile'
 import type TestSubject from '../buffer.mts'
 
 describe('unit-d:types/Buffer', () => {

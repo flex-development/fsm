@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Parsers
- * @module fsm/parse/types/tests/unit-d/Parsers
+ * @module mark/parse/types/tests/unit-d/Parsers
  */
 
-import type { ContentType, Create } from '@flex-development/fsm/parse'
+import type { ContentType, Create } from '@flex-development/mark/parse'
 import type TestSubject from '../parsers.mts'
 
 describe('unit-d:types/Parsers', () => {

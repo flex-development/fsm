@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowJs": false,
     "checkJs": false,
-    "customConditions": ["fsm"],
+    "customConditions": ["mark"],
     "declarationMap": false,
     "emitDeclarationOnly": true,
     "noEmitOnError": true,
@@ -15,9 +15,9 @@
   "exclude": ["**/__mocks__/**", "**/__tests__/**"],
   "extends": "./tsconfig.json",
   "files": [
-    "typings/@flex-development/fsm/ast/index.d.mts",
-    "typings/@flex-development/fsm/compile/index.d.mts",
-    "typings/@flex-development/fsm/parse/index.d.mts"
+    "typings/@flex-development/mark/ast/index.d.mts",
+    "typings/@flex-development/mark/compile/index.d.mts",
+    "typings/@flex-development/mark/parse/index.d.mts"
   ],
   "include": ["dist/**/*", "src/**/**.mts"]
 }

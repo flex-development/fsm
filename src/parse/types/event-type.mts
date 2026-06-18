@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - Event
- * @module fsm/parse/types/Event
+ * @module mark/parse/types/Event
  */
 
 /**

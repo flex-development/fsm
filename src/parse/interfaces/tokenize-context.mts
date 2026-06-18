@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - TokenizeContext
- * @module fsm/parse/interfaces/TokenizeContext
+ * @module mark/parse/interfaces/TokenizeContext
  */
 
 import type {
@@ -19,7 +19,7 @@ import type {
   SliceSerialize,
   SliceStream,
   Write
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Context object to assist with parsing.
@@ -27,7 +27,7 @@ import type {
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface TokenizeContext {
  *      globstar?: boolean | null | undefined
  *    }

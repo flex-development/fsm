@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - Enter
- * @module fsm/parse/types/Enter
+ * @module mark/parse/types/Enter
  */
 
 import type {
   Token,
   TokenFields,
   TokenType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Start a new token.

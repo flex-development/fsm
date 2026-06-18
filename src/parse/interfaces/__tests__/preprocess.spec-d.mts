@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Preprocess
- * @module fsm/parse/interfaces/tests/unit-d/Preprocess
+ * @module mark/parse/interfaces/tests/unit-d/Preprocess
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   Encoding,
   FileLike,
   Value
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../preprocess.mts'
 
 describe('unit-d:interfaces/Preprocess', () => {

@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - TokenTypeMap
- * @module fsm/parse/interfaces/TokenTypeMap
+ * @module mark/parse/interfaces/TokenTypeMap
  */
 
 /**
@@ -9,7 +9,7 @@
  * This interface can be augmented to register custom token types.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface TokenTypeMap {
  *      whitespace: tt.whitespace
  *    }

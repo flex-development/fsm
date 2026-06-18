@@ -1,14 +1,14 @@
 /**
  * @file Type Tests - Enter
- * @module fsm/compile/types/tests/unit-d/Enter
+ * @module mark/compile/types/tests/unit-d/Enter
  */
 
 import type {
   CompileContext,
   CompileValue,
   OnEnterError
-} from '@flex-development/fsm/compile'
-import type { Token } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/compile'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../enter.mts'
 
 describe('unit-d:types/Enter', () => {

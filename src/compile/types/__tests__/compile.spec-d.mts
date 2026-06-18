@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - Compile
- * @module fsm/compile/types/tests/unit-d/Compile
+ * @module mark/compile/types/tests/unit-d/Compile
  */
 
-import type { CompileResult } from '@flex-development/fsm/compile'
-import type { Event } from '@flex-development/fsm/parse'
+import type { CompileResult } from '@flex-development/mark/compile'
+import type { Event } from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../compile.mts'
 

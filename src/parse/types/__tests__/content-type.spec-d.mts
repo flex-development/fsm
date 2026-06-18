@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - ContentType
- * @module fsm/parse/types/tests/unit-d/ContentType
+ * @module mark/parse/types/tests/unit-d/ContentType
  */
 
-import type { ContentTypeMap } from '@flex-development/fsm/parse'
+import type { ContentTypeMap } from '@flex-development/mark/parse'
 import type TestSubject from '../content-type.mts'
 
 describe('unit-d:types/ContentType', () => {

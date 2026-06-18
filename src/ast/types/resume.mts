@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Resume
- * @module fsm/ast/types/Resume
+ * @module mark/ast/types/Resume
  */
 
-import type { CompileContext } from '@flex-development/fsm/ast'
+import type { CompileContext } from '@flex-development/mark/ast'
 
 /**
  * Stop capturing output and serialize the captured node.

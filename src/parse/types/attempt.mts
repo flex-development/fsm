@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Attempt
- * @module fsm/parse/types/Attempt
+ * @module mark/parse/types/Attempt
  */
 
-import type { Constructs, State } from '@flex-development/fsm/parse'
+import type { Constructs, State } from '@flex-development/mark/parse'
 
 /**
  * Attempt deals with several constructs, and tries to tokenize according to

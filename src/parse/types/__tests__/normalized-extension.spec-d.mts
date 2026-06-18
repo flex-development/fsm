@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - NormalizedExtension
- * @module fsm/parse/types/tests/unit-d/NormalizedExtension
+ * @module mark/parse/types/tests/unit-d/NormalizedExtension
  */
 
 import type {
   ConstructRecord,
   ContentType,
   Extension
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type { NIL } from '@flex-development/tutils'
 import type TestSubject from '../normalized-extension.mts'
 

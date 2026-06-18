@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - Exit
- * @module fsm/ast/types/Exit
+ * @module mark/ast/types/Exit
  */
 
 import type {
   CompileContext,
   OnExitError
-} from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 
 /**
  * Exit a node.

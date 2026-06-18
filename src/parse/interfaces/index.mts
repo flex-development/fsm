@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - Interfaces
- * @module fsm/parse/interfaces
+ * @module mark/parse/interfaces
  */
 
 export type {

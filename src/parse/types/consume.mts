@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Consume
- * @module fsm/parse/types/Consume
+ * @module mark/parse/types/Consume
  */
 
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 
 /**
  * Deal with a character `code` and move onto the next.

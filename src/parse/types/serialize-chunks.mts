@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - SerializeChunks
- * @module fsm/parse/types/SerializeChunks
+ * @module mark/parse/types/SerializeChunks
  */
 
 import type {
   Chunk,
   Code,
   SerializeOptions
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Get the string value of a slice of `chunks`.

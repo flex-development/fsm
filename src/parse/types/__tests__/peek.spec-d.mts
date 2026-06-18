@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Peek
- * @module fsm/parse/types/tests/unit-d/Peek
+ * @module mark/parse/types/tests/unit-d/Peek
  */
 
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 import type TestSubject from '../peek.mts'
 
 describe('unit-d:types/Peek', () => {

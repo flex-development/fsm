@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - List
- * @module fsm/core/types/List
+ * @module mark/core/types/List
  */
 
 /**

@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Resume
- * @module fsm/compile/interfaces/tests/unit-d/Resume
+ * @module mark/compile/interfaces/tests/unit-d/Resume
  */
 
-import type { CompileContext } from '@flex-development/fsm/compile'
+import type { CompileContext } from '@flex-development/mark/compile'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../resume.mts'
 

@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - Handles
- * @module fsm/ast/types/tests/unit-d/Handles
+ * @module mark/ast/types/tests/unit-d/Handles
  */
 
-import type { Handle } from '@flex-development/fsm/ast'
-import type { TokenType } from '@flex-development/fsm/parse'
+import type { Handle } from '@flex-development/mark/ast'
+import type { TokenType } from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../handles.mts'
 

@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - Compile
- * @module fsm/ast/types/tests/unit-d/Compile
+ * @module mark/ast/types/tests/unit-d/Compile
  */
 
-import type { Tree } from '@flex-development/fsm/ast'
-import type { Event } from '@flex-development/fsm/parse'
+import type { Tree } from '@flex-development/mark/ast'
+import type { Event } from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../compile.mts'
 

@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - SerializeOptions
- * @module fsm/parse/interfaces/SerializeOptions
+ * @module mark/parse/interfaces/SerializeOptions
  */
 
 /**

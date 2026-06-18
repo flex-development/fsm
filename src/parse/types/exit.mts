@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Exit
- * @module fsm/parse/types/Exit
+ * @module mark/parse/types/Exit
  */
 
-import type { Token, TokenType } from '@flex-development/fsm/parse'
+import type { Token, TokenType } from '@flex-development/mark/parse'
 
 /**
  * Close an open token.

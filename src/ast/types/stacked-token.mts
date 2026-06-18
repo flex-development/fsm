@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - StackedToken
- * @module fsm/ast/types/StackedToken
+ * @module mark/ast/types/StackedToken
  */
 
-import type { OnEnterError } from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+import type { OnEnterError } from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 
 /**
  * List containing an open token on the stack,

@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Transform
- * @module fsm/compile/types/Transform
+ * @module mark/compile/types/Transform
  */
 
-import type { CompileResult } from '@flex-development/fsm/compile'
+import type { CompileResult } from '@flex-development/mark/compile'
 
 /**
  * Transform a compilation result.

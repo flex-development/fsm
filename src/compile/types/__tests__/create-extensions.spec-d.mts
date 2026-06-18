@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - CreateExtensions
- * @module fsm/compile/types/tests/unit-d/CreateExtensions
+ * @module mark/compile/types/tests/unit-d/CreateExtensions
  */
 
 import type {
@@ -8,8 +8,8 @@ import type {
   Closer,
   Extension,
   Opener
-} from '@flex-development/fsm/compile'
-import type { List } from '@flex-development/fsm/core'
+} from '@flex-development/mark/compile'
+import type { List } from '@flex-development/mark/core'
 import type TestSubject from '../create-extensions.mts'
 
 describe('unit-d:types/CreateExtensions', () => {

@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - Compile
- * @module fsm/compile/types/Compile
+ * @module mark/compile/types/Compile
  */
 
-import type { CompileResult } from '@flex-development/fsm/compile'
-import type { Event } from '@flex-development/fsm/parse'
+import type { CompileResult } from '@flex-development/mark/compile'
+import type { Event } from '@flex-development/mark/parse'
 
 /**
  * Turn parser events into a compilation result.

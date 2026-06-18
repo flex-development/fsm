@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - SerializeOptions
- * @module fsm/parse/interfaces/tests/unit-d/SerializeOptions
+ * @module mark/parse/interfaces/tests/unit-d/SerializeOptions
  */
 
 import type { Nilable } from '@flex-development/tutils'

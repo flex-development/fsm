@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - Exit
- * @module fsm/compile/types/tests/unit-d/Exit
+ * @module mark/compile/types/tests/unit-d/Exit
  */
 
 import type {
   CompileContext,
   OnExitError
-} from '@flex-development/fsm/compile'
-import type { Token } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/compile'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../exit.mts'
 
 describe('unit-d:types/Exit', () => {

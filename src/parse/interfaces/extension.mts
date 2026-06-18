@@ -1,12 +1,12 @@
 /**
  * @file Interfaces - Extension
- * @module fsm/parse/interfaces/Extension
+ * @module mark/parse/interfaces/Extension
  */
 
 import type {
   ContentExtensions,
   Disable
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * A syntax extension.
@@ -18,7 +18,7 @@ import type {
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface Extension {
  *      attentionMarkers?: AttentionMarkers | null | undefined
  *    }

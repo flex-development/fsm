@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - CreateExtensions
- * @module fsm/ast/types/CreateExtensions
+ * @module mark/ast/types/CreateExtensions
  */
 
 import type {
@@ -8,8 +8,8 @@ import type {
   Closer,
   Extension,
   Opener
-} from '@flex-development/fsm/ast'
-import type { List } from '@flex-development/fsm/core'
+} from '@flex-development/mark/ast'
+import type { List } from '@flex-development/mark/core'
 
 /**
  * Create an extension or a collection of extensions.

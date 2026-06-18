@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Fragment
- * @module fsm/ast/interfaces/tests/unit-d/Fragment
+ * @module mark/ast/interfaces/tests/unit-d/Fragment
  */
 
 import type { Literal, Node, Parent } from 'unist'

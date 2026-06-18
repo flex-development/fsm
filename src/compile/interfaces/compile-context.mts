@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - CompileContext
- * @module fsm/compile/interfaces/CompileContext
+ * @module mark/compile/interfaces/CompileContext
  */
 
 import type {
@@ -17,14 +17,14 @@ import type {
   Preprocess,
   Resume,
   StackedToken
-} from '@flex-development/fsm/compile'
+} from '@flex-development/mark/compile'
 import type {
   Event,
   Point,
   SliceSerialize,
   Token,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * The base event compilation context.

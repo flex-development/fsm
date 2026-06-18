@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - Resolver
- * @module fsm/parse/types/Resolver
+ * @module mark/parse/types/Resolver
  */
 
 import type {
   Construct,
   Event,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Handle events coming from `tokenize`.

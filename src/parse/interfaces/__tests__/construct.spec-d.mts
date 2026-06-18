@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Construct
- * @module fsm/parse/interfaces/tests/unit-d/Construct
+ * @module mark/parse/interfaces/tests/unit-d/Construct
  */
 
 import type {
@@ -9,7 +9,7 @@ import type {
   Guard,
   Resolver,
   Tokenizer
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../construct.mts'
 

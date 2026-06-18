@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - State
- * @module fsm/parse/types/State
+ * @module mark/parse/types/State
  */
 
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 
 /**
  * The main unit in the state machine: a function that gets a character code and

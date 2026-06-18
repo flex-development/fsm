@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - Event
- * @module fsm/parse/types/Event
+ * @module mark/parse/types/Event
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   Token,
   TokenizeContext,
   TokenType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * The start or end of a token amongst other events.

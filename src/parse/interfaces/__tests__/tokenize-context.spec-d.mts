@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - TokenizeContext
- * @module fsm/parse/interfaces/tests/unit-d/TokenizeContext
+ * @module mark/parse/interfaces/tests/unit-d/TokenizeContext
  */
 
 import type {
@@ -16,7 +16,7 @@ import type {
   SliceSerialize,
   SliceStream,
   Write
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../tokenize-context.mts'
 

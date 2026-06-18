@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Transform
- * @module fsm/ast/types/tests/unit-d/Transform
+ * @module mark/ast/types/tests/unit-d/Transform
  */
 
-import type { Tree } from '@flex-development/fsm/ast'
+import type { Tree } from '@flex-development/mark/ast'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../transform.mts'
 

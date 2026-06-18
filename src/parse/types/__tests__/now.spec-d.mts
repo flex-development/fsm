@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Now
- * @module fsm/parse/types/tests/unit-d/Now
+ * @module mark/parse/types/tests/unit-d/Now
  */
 
-import type { Place } from '@flex-development/fsm/parse'
+import type { Place } from '@flex-development/mark/parse'
 import type { EmptyArray } from '@flex-development/tutils'
 import type TestSubject from '../now.mts'
 

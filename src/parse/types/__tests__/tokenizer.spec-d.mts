@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - Tokenizer
- * @module fsm/parse/types/tests/unit-d/Tokenizer
+ * @module mark/parse/types/tests/unit-d/Tokenizer
  */
 
 import type {
   Effects,
   State,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../tokenizer.mts'
 
 describe('unit-d:types/Tokenizer', () => {

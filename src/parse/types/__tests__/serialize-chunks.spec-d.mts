@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - SerializeChunks
- * @module fsm/parse/types/tests/unit-d/SerializeChunks
+ * @module mark/parse/types/tests/unit-d/SerializeChunks
  */
 
 import type {
   Chunk,
   Code,
   SerializeOptions
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../serialize-chunks.mts'
 
 describe('unit-d:types/SerializeChunks', () => {

@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - Type Aliases
- * @module fsm/parse/types
+ * @module mark/parse/types
  */
 
 export type { Column, Line, Offset } from '@flex-development/unist-util-types'

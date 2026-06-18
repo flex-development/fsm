@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Create
- * @module fsm/parse/types/Create
+ * @module mark/parse/types/Create
  */
 
-import type { Point, TokenizeContext } from '@flex-development/fsm/parse'
+import type { Point, TokenizeContext } from '@flex-development/mark/parse'
 
 /**
  * Create a tokenization context.

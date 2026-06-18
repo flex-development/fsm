@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - Fragment
- * @module fsm/ast/interfaces/Fragment
+ * @module mark/ast/interfaces/Fragment
  */
 
 import type unist from 'unist'

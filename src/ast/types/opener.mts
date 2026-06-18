@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - Opener
- * @module fsm/ast/types/Opener
+ * @module mark/ast/types/Opener
  */
 
-import type { CreateNode, Handle, Node } from '@flex-development/fsm/ast'
-import type { TokenType } from '@flex-development/fsm/parse'
+import type { CreateNode, Handle, Node } from '@flex-development/mark/ast'
+import type { TokenType } from '@flex-development/mark/parse'
 
 /**
  * Create an `enter` event handler.

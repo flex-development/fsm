@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - Event
- * @module fsm/parse/types/tests/unit-d/Event
+ * @module mark/parse/types/tests/unit-d/Event
  */
 
 import type {
   EventType,
   Token,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../event.mts'
 
 describe('unit-d:types/Event', () => {

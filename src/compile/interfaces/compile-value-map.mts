@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - CompileValueMap
- * @module fsm/compile/interfaces/CompileValueMap
+ * @module mark/compile/interfaces/CompileValueMap
  */
 
 /**
@@ -13,7 +13,7 @@
  * This interface can be augmented to register custom compilation values.
  *
  * @example
- *  declare module '@flex-development/fsm/compile' {
+ *  declare module '@flex-development/mark/compile' {
  *    interface CompileValueMap {
  *      comment: docast.Comment
  *    }

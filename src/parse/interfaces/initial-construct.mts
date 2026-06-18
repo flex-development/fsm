@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - InitialConstruct
- * @module fsm/parse/interfaces/InitialConstruct
+ * @module mark/parse/interfaces/InitialConstruct
  */
 
-import type { Construct, Initializer } from '@flex-development/fsm/parse'
+import type { Construct, Initializer } from '@flex-development/mark/parse'
 
 /**
  * An initial construct.

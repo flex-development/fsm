@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Transform
- * @module fsm/compile/types/tests/unit-d/Transform
+ * @module mark/compile/types/tests/unit-d/Transform
  */
 
-import type { CompileResult } from '@flex-development/fsm/compile'
+import type { CompileResult } from '@flex-development/mark/compile'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../transform.mts'
 

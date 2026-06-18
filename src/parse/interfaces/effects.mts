@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - Effects
- * @module fsm/parse/interfaces/Effects
+ * @module mark/parse/interfaces/Effects
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   Consume,
   Enter,
   Exit
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Context object to transition the state machine.

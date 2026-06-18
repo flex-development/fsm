@@ -1,13 +1,13 @@
 /**
  * @file Type Tests - Initializer
- * @module fsm/parse/types/tests/unit-d/Initializer
+ * @module mark/parse/types/tests/unit-d/Initializer
  */
 
 import type {
   Effects,
   State,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../initializer.mts'
 
 describe('unit-d:types/Initializer', () => {

@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - Type Aliases
- * @module fsm/ast/types
+ * @module mark/ast/types
  */
 
 export type { default as Buffer } from './buffer.mts'

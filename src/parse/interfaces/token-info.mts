@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - TokenInfo
- * @module fsm/parse/interfaces/TokenInfo
+ * @module mark/parse/interfaces/TokenInfo
  */
 
-import type { Position, TokenFields } from '@flex-development/fsm/parse'
+import type { Position, TokenFields } from '@flex-development/mark/parse'
 
 /**
  * Information related to a token.

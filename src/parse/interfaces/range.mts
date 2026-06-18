@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - Range
- * @module fsm/parse/interfaces/Range
+ * @module mark/parse/interfaces/Range
  */
 
-import type { RangeInfo } from '@flex-development/fsm/parse'
+import type { RangeInfo } from '@flex-development/mark/parse'
 
 /**
  * A range of chunks in a stream.

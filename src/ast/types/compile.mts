@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - Compile
- * @module fsm/ast/types/Compile
+ * @module mark/ast/types/Compile
  */
 
-import type { Tree } from '@flex-development/fsm/ast'
-import type { Event } from '@flex-development/fsm/parse'
+import type { Tree } from '@flex-development/mark/ast'
+import type { Event } from '@flex-development/mark/parse'
 
 /**
  * Turn parser events into a syntax {@linkcode Tree}.

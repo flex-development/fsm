@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - SerializeValue
- * @module fsm/compile/types/SerializeValue
+ * @module mark/compile/types/SerializeValue
  */
 
-import type { CompileValue, Resume } from '@flex-development/fsm/compile'
+import type { CompileValue, Resume } from '@flex-development/mark/compile'
 
 /**
  * Serialize a compilation value.

@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Node
- * @module fsm/ast/types/Node
+ * @module mark/ast/types/Node
  */
 
-import type { NodeMap } from '@flex-development/fsm/ast'
+import type { NodeMap } from '@flex-development/mark/ast'
 
 /**
  * Union of registered nodes that can be created during event compilation.

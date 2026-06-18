@@ -1,10 +1,10 @@
 /**
  * @file Type Aliases - Closer
- * @module fsm/compile/types/Closer
+ * @module mark/compile/types/Closer
  */
 
-import type { Handle } from '@flex-development/fsm/compile'
-import type { TokenType } from '@flex-development/fsm/parse'
+import type { Handle } from '@flex-development/mark/compile'
+import type { TokenType } from '@flex-development/mark/parse'
 
 /**
  * Create an `exit` event handler.

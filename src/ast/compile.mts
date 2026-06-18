@@ -1,12 +1,12 @@
 /**
  * @file compile
- * @module fsm/ast/compile
+ * @module mark/ast/compile
  */
 
-import type { Node, Tree } from '@flex-development/fsm/ast'
-import type {} from '@flex-development/fsm/compile'
+import type { Node, Tree } from '@flex-development/mark/ast'
+import type {} from '@flex-development/mark/compile'
 
-declare module '@flex-development/fsm/compile' {
+declare module '@flex-development/mark/compile' {
   interface CompileResultMap {
     tree: Tree
   }

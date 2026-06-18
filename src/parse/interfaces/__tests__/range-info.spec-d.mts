@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - RangeInfo
- * @module fsm/parse/interfaces/tests/unit-d/RangeInfo
+ * @module mark/parse/interfaces/tests/unit-d/RangeInfo
  */
 
 import type TestSubject from '../range-info.mts'

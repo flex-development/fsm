@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - CreateNode
- * @module fsm/ast/types/tests/unit-d/CreateNode
+ * @module mark/ast/types/tests/unit-d/CreateNode
  */
 
-import type { Node } from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+import type { Node } from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../create-node.mts'
 
 describe('unit-d:types/CreateNode', () => {

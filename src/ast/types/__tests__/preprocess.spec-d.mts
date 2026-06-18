@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - Preprocess
- * @module fsm/ast/types/tests/unit-d/Preprocess
+ * @module mark/ast/types/tests/unit-d/Preprocess
  */
 
-import type { CompileContext, Tree } from '@flex-development/fsm/ast'
-import type { Event } from '@flex-development/fsm/parse'
+import type { CompileContext, Tree } from '@flex-development/mark/ast'
+import type { Event } from '@flex-development/mark/parse'
 import type TestSubject from '../preprocess.mts'
 
 describe('unit-d:types/Preprocess', () => {

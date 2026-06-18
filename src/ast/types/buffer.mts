@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Buffer
- * @module fsm/ast/types/Buffer
+ * @module mark/ast/types/Buffer
  */
 
-import type { CompileContext } from '@flex-development/fsm/ast'
+import type { CompileContext } from '@flex-development/mark/ast'
 
 /**
  * Capture some of the output data.

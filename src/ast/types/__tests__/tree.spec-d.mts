@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Tree
- * @module fsm/ast/types/tests/unit-d/Tree
+ * @module mark/ast/types/tests/unit-d/Tree
  */
 
-import type { Node, Root } from '@flex-development/fsm/ast'
+import type { Node, Root } from '@flex-development/mark/ast'
 import type TestSubject from '../tree.mts'
 
 describe('unit-d:types/Tree', () => {

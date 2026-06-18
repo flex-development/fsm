@@ -1,13 +1,13 @@
 /**
  * @file Interfaces - TokenFields
- * @module fsm/parse/interfaces/TokenFields
+ * @module mark/parse/interfaces/TokenFields
  */
 
 import type {
   ContentType,
   Token,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Registry of token fields.
@@ -15,7 +15,7 @@ import type {
  * This interface can be augmented to register custom token fields.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface TokenFields {
  *      value?: string | null
  *    }

@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - ContentTypeMap
- * @module fsm/parse/interfaces/ContentTypeMap
+ * @module mark/parse/interfaces/ContentTypeMap
  */
 
 /**
@@ -9,7 +9,7 @@
  * This interface can be augmented to register custom content types.
  *
  * @example
- *  declare module '@flex-development/fsm/parse' {
+ *  declare module '@flex-development/mark/parse' {
  *    interface ContentTypeMap {
  *      document: 'document'
  *      flow: 'flow'

@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - CompileContext
- * @module fsm/ast/interfaces/CompileContext
+ * @module mark/ast/interfaces/CompileContext
  */
 
 import type {
@@ -15,9 +15,9 @@ import type {
   Resume,
   Transform,
   Tree
-} from '@flex-development/fsm/ast'
-import type * as compile from '@flex-development/fsm/compile'
-import type { Event, Token } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/ast'
+import type * as compile from '@flex-development/mark/compile'
+import type { Event, Token } from '@flex-development/mark/parse'
 
 /**
  * The event compilation context.
@@ -38,7 +38,7 @@ import type { Event, Token } from '@flex-development/fsm/parse'
  * Compilation results are syntax trees and intermediate values are nodes.
  * {@linkcode NodeMap} can be augmented to support custom libraries.
  *
- * > 👉 **Note**: Import `@flex-development/fsm/ast/compile` to register nodes
+ * > 👉 **Note**: Import `@flex-development/mark/ast/compile` to register nodes
  * > and trees with the base compilation protocol.
  *
  * @see {@linkcode compile.CompileContext}

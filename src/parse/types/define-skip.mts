@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - DefineSkip
- * @module fsm/parse/types/DefineSkip
+ * @module mark/parse/types/DefineSkip
  */
 
-import type { Point } from '@flex-development/fsm/parse'
+import type { Point } from '@flex-development/mark/parse'
 
 /**
  * Define a skip point.

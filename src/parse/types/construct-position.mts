@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - ConstructPosition
- * @module fsm/parse/types/ConstructPosition
+ * @module mark/parse/types/ConstructPosition
  */
 
-import type { ConstructPositionMap } from '@flex-development/fsm/parse'
+import type { ConstructPositionMap } from '@flex-development/mark/parse'
 
 /**
  * Union of construct positions.

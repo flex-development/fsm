@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - EventType
- * @module fsm/parse/types/tests/unit-d/EventType
+ * @module mark/parse/types/tests/unit-d/EventType
  */
 
 import type TestSubject from '../event-type.mts'

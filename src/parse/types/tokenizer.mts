@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - Tokenizer
- * @module fsm/parse/types/Tokenizer
+ * @module mark/parse/types/Tokenizer
  */
 
 import type {
   Effects,
   State,
   TokenizeContext
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Set up a state machine to handle character codes streaming in.

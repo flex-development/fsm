@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - Preprocess
- * @module fsm/parse/interfaces/Preprocess
+ * @module mark/parse/interfaces/Preprocess
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   Encoding,
   FileLike,
   Value
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Turn a code, file, or value into character code chunks.

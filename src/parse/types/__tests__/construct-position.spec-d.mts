@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - ConstructPosition
- * @module fsm/parse/types/tests/unit-d/ConstructPosition
+ * @module mark/parse/types/tests/unit-d/ConstructPosition
  */
 
-import type { ConstructPositionMap } from '@flex-development/fsm/parse'
+import type { ConstructPositionMap } from '@flex-development/mark/parse'
 import type TestSubject from '../construct-position.mts'
 
 describe('unit-d:types/ConstructPosition', () => {

@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Create
- * @module fsm/parse/types/tests/unit-d/Create
+ * @module mark/parse/types/tests/unit-d/Create
  */
 
-import type { Point, TokenizeContext } from '@flex-development/fsm/parse'
+import type { Point, TokenizeContext } from '@flex-development/mark/parse'
 import type TestSubject from '../create.mts'
 
 describe('unit-d:types/Create', () => {

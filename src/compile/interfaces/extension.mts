@@ -1,10 +1,10 @@
 /**
  * @file Interfaces - Extension
- * @module fsm/compile/interfaces/Extension
+ * @module mark/compile/interfaces/Extension
  */
 
-import type { Handles, Transform } from '@flex-development/fsm/compile'
-import type { List } from '@flex-development/fsm/core'
+import type { Handles, Transform } from '@flex-development/mark/compile'
+import type { List } from '@flex-development/mark/core'
 
 /**
  * An event compilation extension.
@@ -12,7 +12,7 @@ import type { List } from '@flex-development/fsm/core'
  * This interface can be augmented to register custom fields.
  *
  * @example
- *  declare module '@flex-development/fsm/compile' {
+ *  declare module '@flex-development/mark/compile' {
  *    interface Extension {
  *      canContainEols?: string[] | null | undefined
  *    }

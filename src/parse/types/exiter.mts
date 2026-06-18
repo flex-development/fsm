@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - Exiter
- * @module fsm/parse/types/Exiter
+ * @module mark/parse/types/Exiter
  */
 
 import type {
   Effects,
   TokenizeContext,
   Tokenizer
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * The final hook to run when a container must be closed.

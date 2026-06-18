@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - CompileValue
- * @module fsm/compile/types/CompileValue
+ * @module mark/compile/types/CompileValue
  */
 
-import type { CompileValueMap } from '@flex-development/fsm/compile'
+import type { CompileValueMap } from '@flex-development/mark/compile'
 
 /**
  * Union of registered event compilation values.

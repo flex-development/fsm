@@ -1,14 +1,14 @@
 /**
  * @file Type Aliases - Opener
- * @module fsm/compile/types/Opener
+ * @module mark/compile/types/Opener
  */
 
 import type {
   CompileValue,
   CreateValue,
   Handle
-} from '@flex-development/fsm/compile'
-import type { TokenType } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/compile'
+import type { TokenType } from '@flex-development/mark/parse'
 
 /**
  * Create an `enter` event handler.

@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - CreateToken
- * @module fsm/parse/types/CreateToken
+ * @module mark/parse/types/CreateToken
  */
 
 import type {
   Token,
   TokenInfo,
   TokenType
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Create a new token.

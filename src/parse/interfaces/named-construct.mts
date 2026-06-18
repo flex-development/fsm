@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - NamedConstruct
- * @module fsm/parse/interfaces/NamedConstruct
+ * @module mark/parse/interfaces/NamedConstruct
  */
 
-import type { Construct } from '@flex-development/fsm/parse'
+import type { Construct } from '@flex-development/mark/parse'
 
 /**
  * A construct with a name.

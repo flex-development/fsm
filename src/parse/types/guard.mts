@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Guard
- * @module fsm/parse/types/Guard
+ * @module mark/parse/types/Guard
  */
 
-import type { Code, TokenizeContext } from '@flex-development/fsm/parse'
+import type { Code, TokenizeContext } from '@flex-development/mark/parse'
 
 /**
  * Guard a character `code`.

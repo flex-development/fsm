@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Closer
- * @module fsm/compile/types/tests/unit-d/Closer
+ * @module mark/compile/types/tests/unit-d/Closer
  */
 
-import type { Handle } from '@flex-development/fsm/compile'
+import type { Handle } from '@flex-development/mark/compile'
 import type TestSubject from '../closer.mts'
 
 describe('unit-d:types/Closer', () => {

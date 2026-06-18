@@ -1,13 +1,13 @@
 /**
  * @file Type Aliases - Parsers
- * @module fsm/parse/types/Parsers
+ * @module mark/parse/types/Parsers
  */
 
 import type {
   ContentType,
   ContentTypeMap,
   Create
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Map, where each key is a content type

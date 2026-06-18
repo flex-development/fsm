@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - Code
- * @module fsm/parse/types/Code
+ * @module mark/parse/types/Code
  */
 
 /**

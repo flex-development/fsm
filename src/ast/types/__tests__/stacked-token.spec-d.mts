@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - StackedToken
- * @module fsm/ast/types/tests/unit-d/StackedToken
+ * @module mark/ast/types/tests/unit-d/StackedToken
  */
 
-import type { OnEnterError } from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+import type { OnEnterError } from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../stacked-token.mts'
 
 describe('unit-d:types/StackedToken', () => {

@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - TokenInfo
- * @module fsm/parse/interfaces/tests/unit-d/TokenInfo
+ * @module mark/parse/interfaces/tests/unit-d/TokenInfo
  */
 
-import type { Position, TokenFields } from '@flex-development/fsm/parse'
+import type { Position, TokenFields } from '@flex-development/mark/parse'
 import type TestSubject from '../token-info.mts'
 
 describe('unit-d:interfaces/TokenInfo', () => {

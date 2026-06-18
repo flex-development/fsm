@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Encoding
- * @module fsm/parse/types/tests/unit-d/Encoding
+ * @module mark/parse/types/tests/unit-d/Encoding
  */
 
-import type { EncodingMap } from '@flex-development/fsm/parse'
+import type { EncodingMap } from '@flex-development/mark/parse'
 import type TestSubject from '../encoding.mts'
 
 describe('unit-d:types/Encoding', () => {

@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - CompileData
- * @module fsm/compile/interfaces/tests/unit-d/CompileData
+ * @module mark/compile/interfaces/tests/unit-d/CompileData
  */
 
-import type * as compile from '@flex-development/fsm/compile'
+import type * as compile from '@flex-development/mark/compile'
 import type TestSubject from '../compile-data.mts'
 
 describe('unit-d:interfaces/CompileData', () => {

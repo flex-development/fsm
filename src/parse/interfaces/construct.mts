@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - Construct
- * @module fsm/parse/interfaces/Construct
+ * @module mark/parse/interfaces/Construct
  */
 
 import type {
@@ -10,7 +10,7 @@ import type {
   Guard,
   Resolver,
   Tokenizer
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Object describing how to tokenize a syntax construct.

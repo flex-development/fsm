@@ -1,9 +1,9 @@
 /**
  * @file Interfaces - CompileData
- * @module fsm/ast/interfaces/CompileData
+ * @module mark/ast/interfaces/CompileData
  */
 
-import type * as compile from '@flex-development/fsm/compile'
+import type * as compile from '@flex-development/mark/compile'
 
 /**
  * Registry of tracked data.
@@ -11,7 +11,7 @@ import type * as compile from '@flex-development/fsm/compile'
  * This interface can be augmented to register custom data.
  *
  * @example
- *  declare module '@flex-development/fsm/ast' {
+ *  declare module '@flex-development/mark/ast' {
  *    interface CompileData {
  *      flowCodeInside?: boolean | null | undefined
  *    }

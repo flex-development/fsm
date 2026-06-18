@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - NormalizedExtension
- * @module fsm/parse/types/NormalizedExtension
+ * @module mark/parse/types/NormalizedExtension
  */
 
-import type { Extension } from '@flex-development/fsm/parse'
+import type { Extension } from '@flex-development/mark/parse'
 
 /**
  * A filtered, combined extension, where all properties of {@linkcode Extension}

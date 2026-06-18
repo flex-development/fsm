@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - EncodingMap
- * @module fsm/parse/interfaces/tests/unit-d/EncodingMap
+ * @module mark/parse/interfaces/tests/unit-d/EncodingMap
  */
 
 import type TestSubject from '../encoding-map.mts'

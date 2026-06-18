@@ -1,6 +1,6 @@
 /**
  * @file Entry Point - Interfaces
- * @module fsm/ast/interfaces
+ * @module mark/ast/interfaces
  */
 
 export type { default as CompileContext } from './compile-context.mts'

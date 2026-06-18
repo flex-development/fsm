@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - TakeExtension
- * @module fsm/ast/types/TakeExtension
+ * @module mark/ast/types/TakeExtension
  */
 
-import type { Config, Extension } from '@flex-development/fsm/ast'
+import type { Config, Extension } from '@flex-development/mark/ast'
 
 /**
  * Merge an `extension` into `config`.

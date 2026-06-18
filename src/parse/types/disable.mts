@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - Disable
- * @module fsm/parse/types/Disable
+ * @module mark/parse/types/Disable
  */
 
 /**

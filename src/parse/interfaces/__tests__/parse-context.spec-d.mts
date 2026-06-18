@@ -1,12 +1,12 @@
 /**
  * @file Type Tests - ParseContext
- * @module fsm/parse/interfaces/tests/unit-d/ParseContext
+ * @module mark/parse/interfaces/tests/unit-d/ParseContext
  */
 
 import type {
   FullNormalizedExtension,
   Parsers
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 import type TestSubject from '../parse-context.mts'
 
 describe('unit-d:interfaces/ParseContext', () => {

@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - ContentType
- * @module fsm/parse/types/ContentType
+ * @module mark/parse/types/ContentType
  */
 
-import type { ContentTypeMap } from '@flex-development/fsm/parse'
+import type { ContentTypeMap } from '@flex-development/mark/parse'
 
 /**
  * Union of content types.\

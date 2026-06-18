@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - CompileContext
- * @module fsm/compile/interfaces/tests/unit-d/CompileContext
+ * @module mark/compile/interfaces/tests/unit-d/CompileContext
  */
 
 import type {
@@ -14,8 +14,8 @@ import type {
   Preprocess,
   Resume,
   StackedToken
-} from '@flex-development/fsm/compile'
-import type { Point, SliceSerialize } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/compile'
+import type { Point, SliceSerialize } from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../compile-context.mts'
 

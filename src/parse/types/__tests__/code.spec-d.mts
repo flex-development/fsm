@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Code
- * @module fsm/parse/types/tests/unit-d/Code
+ * @module mark/parse/types/tests/unit-d/Code
  */
 
 import type TestSubject from '../code.mts'

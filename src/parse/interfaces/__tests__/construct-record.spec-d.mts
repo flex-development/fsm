@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - ConstructRecord
- * @module fsm/parse/interfaces/tests/unit-d/ConstructRecord
+ * @module mark/parse/interfaces/tests/unit-d/ConstructRecord
  */
 
-import type { ConstructPack } from '@flex-development/fsm/parse'
+import type { ConstructPack } from '@flex-development/mark/parse'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../construct-record.mts'
 

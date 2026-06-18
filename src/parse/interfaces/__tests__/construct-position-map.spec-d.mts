@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - ConstructPositionMap
- * @module fsm/parse/interfaces/tests/unit-d/ConstructPositionMap
+ * @module mark/parse/interfaces/tests/unit-d/ConstructPositionMap
  */
 
 import type TestSubject from '../construct-position-map.mts'

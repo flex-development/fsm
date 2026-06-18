@@ -1,6 +1,6 @@
 /**
  * @file Interfaces - CompileData
- * @module fsm/compile/interfaces/CompileData
+ * @module mark/compile/interfaces/CompileData
  */
 
 /**
@@ -9,7 +9,7 @@
  * This interface can be augmented to register custom data.
  *
  * @example
- *  declare module '@flex-development/fsm/compile' {
+ *  declare module '@flex-development/mark/compile' {
  *    interface CompileData {
  *      flowCodeInside?: boolean | null | undefined
  *    }

@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - Disable
- * @module fsm/parse/types/tests/unit-d/Disable
+ * @module mark/parse/types/tests/unit-d/Disable
  */
 
 import type { Nilable } from '@flex-development/tutils'

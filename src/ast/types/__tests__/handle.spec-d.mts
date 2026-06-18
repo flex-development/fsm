@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - Handle
- * @module fsm/ast/types/tests/unit-d/Handle
+ * @module mark/ast/types/tests/unit-d/Handle
  */
 
-import type { CompileContext } from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+import type { CompileContext } from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 import type TestSubject from '../handle.mts'
 
 describe('unit-d:types/Handle', () => {

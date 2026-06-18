@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Write
- * @module fsm/parse/types/tests/unit-d/Write
+ * @module mark/parse/types/tests/unit-d/Write
  */
 
-import type { Event, Writable } from '@flex-development/fsm/parse'
+import type { Event, Writable } from '@flex-development/mark/parse'
 import type TestSubject from '../write.mts'
 
 describe('unit-d:types/Write', () => {

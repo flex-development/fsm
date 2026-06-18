@@ -57,22 +57,22 @@ labels:
     description: dependency updates
     color: 74cefc
   - name: scope:ast
-    description: '@flex-development/fsm/ast'
+    description: '@flex-development/mark/ast'
     color: 74cefc
   - name: scope:ast/compile
-    description: '@flex-development/fsm/ast/compile'
+    description: '@flex-development/mark/ast/compile'
     color: 74cefc
   - name: scope:compile
-    description: '@flex-development/fsm/compile'
+    description: '@flex-development/mark/compile'
     color: 74cefc
   - name: scope:core
-    description: '@flex-development/fsm/core'
+    description: '@flex-development/mark/core'
     color: 74cefc
   - name: scope:install
     description: package install
     color: 74cefc
   - name: scope:parse
-    description: '@flex-development/fsm/parse'
+    description: '@flex-development/mark/parse'
     color: 74cefc
   - name: scope:release
     description: package release
@@ -171,18 +171,19 @@ repository:
   automated_security_fixes: true
   default_branch: main
   delete_branch_on_merge: true
-  description: finite state machine specification
+  description:
+    'a specification for building syntax-aware parsers, compilers, and text processing systems'
   has_issues: true
   has_projects: true
   has_wiki: false
-  homepage: https://github.com/flex-development/fsm
+  homepage: https://github.com/flex-development/mark
   is_template: false
   private: false
   squash_merge_commit_message: BLANK
   squash_merge_commit_title: PR_TITLE
   topics:
     - compile
-    - fsm
+    - mark
     - parse
     - spec
     - spec

@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Chunk
- * @module fsm/parse/types/Chunk
+ * @module mark/parse/types/Chunk
  */
 
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 
 /**
  * A character code or slice of a buffer in the form of a string.

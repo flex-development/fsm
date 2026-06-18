@@ -1,10 +1,10 @@
 /**
  * @file Type Tests - Extension
- * @module fsm/compile/interfaces/tests/unit-d/Extension
+ * @module mark/compile/interfaces/tests/unit-d/Extension
  */
 
-import type { Handles, Transform } from '@flex-development/fsm/compile'
-import type { List } from '@flex-development/fsm/core'
+import type { Handles, Transform } from '@flex-development/mark/compile'
+import type { List } from '@flex-development/mark/core'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../extension.mts'
 

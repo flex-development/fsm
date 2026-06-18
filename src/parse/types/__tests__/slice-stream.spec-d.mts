@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - SliceStream
- * @module fsm/parse/types/tests/unit-d/SliceStream
+ * @module mark/parse/types/tests/unit-d/SliceStream
  */
 
-import type { Chunk, Range } from '@flex-development/fsm/parse'
+import type { Chunk, Range } from '@flex-development/mark/parse'
 import type TestSubject from '../slice-stream.mts'
 
 describe('unit-d:types/SliceStream', () => {

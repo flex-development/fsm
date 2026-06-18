@@ -1,6 +1,6 @@
 /**
  * @file Type Aliases - Initializer
- * @module fsm/parse/types/Initializer
+ * @module mark/parse/types/Initializer
  */
 
 import type {
@@ -8,7 +8,7 @@ import type {
   State,
   TokenizeContext,
   Tokenizer
-} from '@flex-development/fsm/parse'
+} from '@flex-development/mark/parse'
 
 /**
  * Set up an initial state machine.

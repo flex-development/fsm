@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - SliceSerialize
- * @module fsm/parse/types/SliceSerialize
+ * @module mark/parse/types/SliceSerialize
  */
 
-import type { Range, SerializeOptions } from '@flex-development/fsm/parse'
+import type { Range, SerializeOptions } from '@flex-development/mark/parse'
 
 /**
  * Get the text spanning `range`.

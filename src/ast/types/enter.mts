@@ -1,14 +1,14 @@
 /**
  * @file Type Aliases - Enter
- * @module fsm/ast/types/Enter
+ * @module mark/ast/types/Enter
  */
 
 import type {
   CompileContext,
   Node,
   OnEnterError
-} from '@flex-development/fsm/ast'
-import type { Token } from '@flex-development/fsm/parse'
+} from '@flex-development/mark/ast'
+import type { Token } from '@flex-development/mark/parse'
 
 /**
  * Enter a node.

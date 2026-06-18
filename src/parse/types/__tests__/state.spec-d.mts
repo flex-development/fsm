@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - State
- * @module fsm/parse/types/tests/unit-d/State
+ * @module mark/parse/types/tests/unit-d/State
  */
 
-import type { Code } from '@flex-development/fsm/parse'
+import type { Code } from '@flex-development/mark/parse'
 import type { Optional } from '@flex-development/tutils'
 import type TestSubject from '../state.mts'
 

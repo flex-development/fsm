@@ -1,9 +1,9 @@
 /**
  * @file Type Aliases - Now
- * @module fsm/parse/types/Now
+ * @module mark/parse/types/Now
  */
 
-import type { Place } from '@flex-development/fsm/parse'
+import type { Place } from '@flex-development/mark/parse'
 
 /**
  * Get the current point in the file.

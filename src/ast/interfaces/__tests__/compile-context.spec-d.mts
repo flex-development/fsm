@@ -1,6 +1,6 @@
 /**
  * @file Type Tests - CompileContext
- * @module fsm/ast/interfaces/tests/unit-d/CompileContext
+ * @module mark/ast/interfaces/tests/unit-d/CompileContext
  */
 
 import type {
@@ -13,8 +13,8 @@ import type {
   Node,
   Preprocess,
   Resume
-} from '@flex-development/fsm/ast'
-import type * as compile from '@flex-development/fsm/compile'
+} from '@flex-development/mark/ast'
+import type * as compile from '@flex-development/mark/compile'
 import type { Nilable } from '@flex-development/tutils'
 import type TestSubject from '../compile-context.mts'
 

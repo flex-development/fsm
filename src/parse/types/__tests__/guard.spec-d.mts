@@ -1,9 +1,9 @@
 /**
  * @file Type Tests - Guard
- * @module fsm/parse/types/tests/unit-d/Guard
+ * @module mark/parse/types/tests/unit-d/Guard
  */
 
-import type { Code, TokenizeContext } from '@flex-development/fsm/parse'
+import type { Code, TokenizeContext } from '@flex-development/mark/parse'
 import type TestSubject from '../guard.mts'
 
 describe('unit-d:types/Guard', () => {
