@@ -4,19 +4,19 @@
  */
 
 import type {
+  Context,
   Effects,
-  State,
-  TokenizeContext
+  State
 } from '@flex-development/mark/parse'
 
 /**
  * Set up a state machine to handle character codes streaming in.
  *
+ * @see {@linkcode Context}
  * @see {@linkcode Effects}
  * @see {@linkcode State}
- * @see {@linkcode TokenizeContext}
  *
- * @this {TokenizeContext}
+ * @this {Context}
  *
  * @param {Effects} effects
  *  The context object to transition the state machine
@@ -28,7 +28,7 @@ import type {
  *  The initial state
  */
 type Tokenizer = (
-  this: TokenizeContext,
+  this: Context,
   effects: Effects,
   ok: State,
   nok: State

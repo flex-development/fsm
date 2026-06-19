@@ -4,9 +4,9 @@
  */
 
 import type {
+  Context,
   Effects,
   State,
-  TokenizeContext,
   Tokenizer
 } from '@flex-development/mark/parse'
 
@@ -15,17 +15,17 @@ import type {
  *
  * > 👉 **Note**: Like a {@linkcode Tokenizer}, but without `ok` and `nok`.
  *
+ * @see {@linkcode Context}
  * @see {@linkcode Effects}
  * @see {@linkcode State}
- * @see {@linkcode TokenizeContext}
  *
- * @this {TokenizeContext}
+ * @this {Context}
  *
  * @param {Effects} effects
  *  The context object to transition the state machine
  * @return {State}
  *  The initial state
  */
-type Initializer = (this: TokenizeContext, effects: Effects) => State
+type Initializer = (this: Context, effects: Effects) => State
 
 export type { Initializer as default }

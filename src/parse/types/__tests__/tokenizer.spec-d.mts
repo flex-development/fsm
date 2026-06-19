@@ -3,16 +3,12 @@
  * @module mark/parse/types/tests/unit-d/Tokenizer
  */
 
-import type {
-  Effects,
-  State,
-  TokenizeContext
-} from '@flex-development/mark/parse'
+import type { Context, Effects, State } from '@flex-development/mark/parse'
 import type TestSubject from '../tokenizer.mts'
 
 describe('unit-d:types/Tokenizer', () => {
-  it('should match [this: TokenizeContext]', () => {
-    expectTypeOf<TestSubject>().thisParameter.toEqualTypeOf<TokenizeContext>()
+  it('should match [this: Context]', () => {
+    expectTypeOf<TestSubject>().thisParameter.toEqualTypeOf<Context>()
   })
 
   describe('parameters', () => {

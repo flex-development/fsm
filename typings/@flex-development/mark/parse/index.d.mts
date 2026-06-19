@@ -1,4 +1,4 @@
-import type { Code } from '@flex-development/mark/parse'
+import type { Code, TokenizeContext } from '@flex-development/mark/parse'
 
 declare module '@flex-development/mark/parse' {
   interface ContainerState {
@@ -7,6 +7,10 @@ declare module '@flex-development/mark/parse' {
 
   interface ContentTypeMap {
     document: 'document'
+  }
+
+  interface ContextMap {
+    mark: TokenizeContext
   }
 
   interface TokenTypeMap {

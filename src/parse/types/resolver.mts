@@ -5,30 +5,26 @@
 
 import type {
   Construct,
-  Event,
-  TokenizeContext
+  Context,
+  Event
 } from '@flex-development/mark/parse'
 
 /**
  * Handle events coming from `tokenize`.
  *
  * @see {@linkcode Construct.tokenize}
+ * @see {@linkcode Context}
  * @see {@linkcode Event}
- * @see {@linkcode TokenizeContext}
  *
  * @this {void}
  *
  * @param {Event[]} events
  *  The current list of events
- * @param {TokenizeContext} context
+ * @param {Context} context
  *  The tokenize context
  * @return {Event[]}
  *  The list of changed events
  */
-type Resolver = (
-  this: void,
-  events: Event[],
-  context: TokenizeContext
-) => Event[]
+type Resolver = (this: void, events: Event[], context: Context) => Event[]
 
 export type { Resolver as default }

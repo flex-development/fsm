@@ -3,11 +3,7 @@
  * @module mark/parse/interfaces/TokenFields
  */
 
-import type {
-  ContentType,
-  Token,
-  TokenizeContext
-} from '@flex-development/mark/parse'
+import type { ContentType, Context, Token } from '@flex-development/mark/parse'
 
 /**
  * Registry of token fields.
@@ -28,9 +24,9 @@ interface TokenFields {
    * Typically used when dealing with linked tokens; a child tokenizer is
    * usually needed to tokenize them.
    *
-   * @see {@linkcode TokenizeContext}
+   * @see {@linkcode Context}
    */
-  _tokenizer?: TokenizeContext | null | undefined
+  _tokenizer?: Context | null | undefined
 
   /**
    * Declare the token as having content of a certain type.

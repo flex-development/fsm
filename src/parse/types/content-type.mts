@@ -6,7 +6,7 @@
 import type { ContentTypeMap } from '@flex-development/mark/parse'
 
 /**
- * Union of content types.\
+ * Union of registered content types.\
  * Content types are used on tokens to define their subcontent type.
  *
  * To register custom content types, augment {@linkcode ContentTypeMap}.

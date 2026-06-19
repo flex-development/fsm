@@ -4,9 +4,9 @@
  */
 
 import type {
+  Context,
   EventType,
   Token,
-  TokenizeContext,
   TokenType
 } from '@flex-development/mark/parse'
 
@@ -16,9 +16,9 @@ import type {
  * Tokens can "contain" other tokens, even if they're stored in a linked list,
  * by `enter`ing before and `exit`ing after them.
  *
+ * @see {@linkcode Context}
  * @see {@linkcode EventType}
  * @see {@linkcode TokenType}
- * @see {@linkcode TokenizeContext}
  * @see {@linkcode Token}
  *
  * @template {TokenType} [T=TokenType]
@@ -27,7 +27,7 @@ import type {
 type Event<T extends TokenType = TokenType> = [
   event: EventType,
   token: Token<T>,
-  context: TokenizeContext
+  context: Context
 ]
 
 export type { Event as default }

@@ -22,8 +22,7 @@ import type {
   Event,
   Point,
   SliceSerialize,
-  Token,
-  TokenizeContext
+  Token
 } from '@flex-development/mark/parse'
 
 /**
@@ -118,8 +117,7 @@ interface CompileContext {
    *
    * > 👉 **Note**: Returns an empty string by default.
    * > If a custom serializer has not been defined prior to event compilation,
-   * > a tokenizer's serializer ({@linkcode TokenizeContext.sliceSerialize})
-   * > will be assigned to this field.
+   * > a tokenizer's serializer will be assigned to this field.
    *
    * @see {@linkcode SliceSerialize}
    */

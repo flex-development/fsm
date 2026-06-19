@@ -3,7 +3,7 @@
  * @module mark/parse/types/tests/unit-d/Create
  */
 
-import type { Point, TokenizeContext } from '@flex-development/mark/parse'
+import type { Context, Point } from '@flex-development/mark/parse'
 import type TestSubject from '../create.mts'
 
 describe('unit-d:types/Create', () => {
@@ -22,8 +22,8 @@ describe('unit-d:types/Create', () => {
   })
 
   describe('returns', () => {
-    it('should return TokenizeContext', () => {
-      expectTypeOf<TestSubject>().returns.toEqualTypeOf<TokenizeContext>()
+    it('should return Context', () => {
+      expectTypeOf<TestSubject>().returns.toEqualTypeOf<Context>()
     })
   })
 })

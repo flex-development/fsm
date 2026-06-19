@@ -3,12 +3,12 @@
  * @module mark/parse/types/tests/unit-d/Guard
  */
 
-import type { Code, TokenizeContext } from '@flex-development/mark/parse'
+import type { Code, Context } from '@flex-development/mark/parse'
 import type TestSubject from '../guard.mts'
 
 describe('unit-d:types/Guard', () => {
-  it('should match [this: TokenizeContext]', () => {
-    expectTypeOf<TestSubject>().thisParameter.toEqualTypeOf<TokenizeContext>()
+  it('should match [this: Context]', () => {
+    expectTypeOf<TestSubject>().thisParameter.toEqualTypeOf<Context>()
   })
 
   describe('parameters', () => {

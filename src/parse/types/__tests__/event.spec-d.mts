@@ -4,14 +4,15 @@
  */
 
 import type {
+  Context,
   EventType,
   Token,
-  TokenizeContext
+  TokenTypeMap
 } from '@flex-development/mark/parse'
 import type TestSubject from '../event.mts'
 
 describe('unit-d:types/Event', () => {
-  type T = 'succ'
+  type T = TokenTypeMap['succ']
   type Subject = TestSubject<T>
 
   it('should match [0: EventType]', () => {
@@ -22,7 +23,7 @@ describe('unit-d:types/Event', () => {
     expectTypeOf<Subject>().toHaveProperty('1').toEqualTypeOf<Token<T>>()
   })
 
-  it('should match [2: TokenizeContext]', () => {
-    expectTypeOf<Subject>().toHaveProperty('2').toEqualTypeOf<TokenizeContext>()
+  it('should match [2: Context]', () => {
+    expectTypeOf<Subject>().toHaveProperty('2').toEqualTypeOf<Context>()
   })
 })

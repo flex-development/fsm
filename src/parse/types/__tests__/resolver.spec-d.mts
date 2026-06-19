@@ -3,7 +3,7 @@
  * @module mark/parse/types/tests/unit-d/Resolver
  */
 
-import type { Event, TokenizeContext } from '@flex-development/mark/parse'
+import type { Context, Event } from '@flex-development/mark/parse'
 import type TestSubject from '../resolver.mts'
 
 describe('unit-d:types/Resolver', () => {
@@ -12,10 +12,10 @@ describe('unit-d:types/Resolver', () => {
   })
 
   describe('parameters', () => {
-    it('should be callable with [Event[], TokenizeContext]', () => {
+    it('should be callable with [Event[], Context]', () => {
       expectTypeOf<TestSubject>()
         .parameters
-        .toEqualTypeOf<[Event[], TokenizeContext]>()
+        .toEqualTypeOf<[Event[], Context]>()
     })
   })
 

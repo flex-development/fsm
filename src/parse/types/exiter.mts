@@ -4,8 +4,8 @@
  */
 
 import type {
+  Context,
   Effects,
-  TokenizeContext,
   Tokenizer
 } from '@flex-development/mark/parse'
 
@@ -15,15 +15,15 @@ import type {
  * > 👉 **Note**: Like a {@linkcode Tokenizer}, but without `ok` and `nok`, and
  * > returns `undefined`.
  *
+ * @see {@linkcode Context}
  * @see {@linkcode Effects}
- * @see {@linkcode TokenizeContext}
  *
- * @this {TokenizeContext}
+ * @this {Context}
  *
  * @param {Effects} effects
  *  The context object to transition the state machine
  * @return {undefined}
  */
-type Exiter = (this: TokenizeContext, effects: Effects) => undefined
+type Exiter = (this: Context, effects: Effects) => undefined
 
 export type { Exiter as default }

@@ -3,21 +3,21 @@
  * @module mark/parse/types/Guard
  */
 
-import type { Code, TokenizeContext } from '@flex-development/mark/parse'
+import type { Code, Context } from '@flex-development/mark/parse'
 
 /**
  * Guard a character `code`.
  *
  * @see {@linkcode Code}
- * @see {@linkcode TokenizeContext}
+ * @see {@linkcode Context}
  *
- * @this {TokenizeContext}
+ * @this {Context}
  *
  * @param {Code} code
  *  The character code to check
  * @return {boolean}
  *  `true` if `code` passes check, `false` otherwise
  */
-type Guard = (this: TokenizeContext, code: Code) => boolean
+type Guard = (this: Context, code: Code) => boolean
 
 export type { Guard as default }
