@@ -9,12 +9,9 @@ import type {
   ContainerState,
   CreateToken,
   DefineSkip,
-  Encoding,
   Event,
   Now,
   ParseContext,
-  Peek,
-  Preprocess,
   SerializeChunks,
   SliceSerialize,
   SliceStream,
@@ -70,14 +67,6 @@ interface TokenizeContext {
   defineSkip: DefineSkip
 
   /**
-   * The character encoding used when {@linkcode Uint8Array}s
-   * are converted to chunks.
-   *
-   * @see {@linkcode Encoding}
-   */
-  encoding?: Encoding | null | undefined
-
-  /**
    * The current list of events.
    *
    * @see {@linkcode Event}
@@ -105,20 +94,6 @@ interface TokenizeContext {
    * @see {@linkcode ParseContext}
    */
   parser: ParseContext
-
-  /**
-   * Get the next character code without advancing the tokenizer.
-   *
-   * @see {@linkcode Peek}
-   */
-  peek: Peek
-
-  /**
-   * Turn a code, file, or value into character code chunks.
-   *
-   * @see {@linkcode Preprocess}
-   */
-  preprocess: Preprocess
 
   /**
    * The previous character code.

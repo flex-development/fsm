@@ -6,7 +6,7 @@
 import type { Position, SerializeOptions } from '@flex-development/mark/parse'
 
 /**
- * Get the text spanning `range`.
+ * Get the text that spans a token (or location).
  *
  * @see {@linkcode Position}
  * @see {@linkcode SerializeOptions}

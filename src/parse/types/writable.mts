@@ -4,16 +4,14 @@
  */
 
 import type { List } from '@flex-development/mark/core'
-import type { Chunk, FileLike, Value } from '@flex-development/mark/parse'
+import type { Chunk } from '@flex-development/mark/parse'
 
 /**
  * Union of values that can occur where a slice of chunks is expected.
  *
  * @see {@linkcode Chunk}
- * @see {@linkcode FileLike}
  * @see {@linkcode List}
- * @see {@linkcode Value}
  */
-type Writable = Chunk | FileLike | List<Chunk | FileLike | Value> | Value
+type Writable = Chunk | List<Chunk>
 
 export type { Writable as default }

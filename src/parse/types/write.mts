@@ -8,7 +8,7 @@ import type { Event, Writable } from '@flex-development/mark/parse'
 /**
  * Write a slice of chunks.
  *
- * The eof code (`null`) can be used to signal end of stream.
+ * The eos code (`null`) can be used to signal end of stream.
  *
  * @see {@linkcode Event}
  * @see {@linkcode Writable}
@@ -16,9 +16,9 @@ import type { Event, Writable } from '@flex-development/mark/parse'
  * @this {void}
  *
  * @param {Writable} slice
- *  The chunk, file, buffer, or list to write
+ *  The chunk or list of chunks to write
  * @return {Event[]}
- *  The current list of events
+ *  The list of events if at the end of stream, otherwise an empty array
  */
 type Write = (this: void, slice: Writable) => Event[]
 

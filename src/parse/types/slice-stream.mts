@@ -6,7 +6,7 @@
 import type { Chunk, Position } from '@flex-development/mark/parse'
 
 /**
- * Get the chunks spanning `range`.
+ * Get the chunks that span a token (or location).
  *
  * @see {@linkcode Chunk}
  * @see {@linkcode Position}

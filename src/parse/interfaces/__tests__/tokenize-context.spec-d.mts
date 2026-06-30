@@ -12,7 +12,6 @@ import type {
   Event,
   Now,
   ParseContext,
-  Preprocess,
   SliceSerialize,
   SliceStream,
   Write
@@ -63,12 +62,6 @@ describe('unit-d:interfaces/TokenizeContext', () => {
     expectTypeOf<TestSubject>()
       .toHaveProperty('parser')
       .toEqualTypeOf<ParseContext>()
-  })
-
-  it('should match [preprocess: Preprocess]', () => {
-    expectTypeOf<TestSubject>()
-      .toHaveProperty('preprocess')
-      .toEqualTypeOf<Preprocess>()
   })
 
   it('should match [previous: Code]', () => {

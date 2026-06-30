@@ -1,12 +1,12 @@
 /**
- * @file Type Tests - Guard
- * @module mark/parse/types/tests/unit-d/Guard
+ * @file Type Tests - Previous
+ * @module mark/parse/types/tests/unit-d/Previous
  */
 
 import type { Code, Context } from '@flex-development/mark/parse'
-import type TestSubject from '../guard.mts'
+import type TestSubject from '../previous.mts'
 
-describe('unit-d:types/Guard', () => {
+describe('unit-d:types/Previous', () => {
   it('should match [this: Context]', () => {
     expectTypeOf<TestSubject>().thisParameter.toEqualTypeOf<Context>()
   })

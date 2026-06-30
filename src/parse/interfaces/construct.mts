@@ -7,7 +7,7 @@ import type {
   ConstructPosition,
   ConstructRecord,
   Exiter,
-  Guard,
+  Previous,
   Resolver,
   Tokenizer
 } from '@flex-development/mark/parse'
@@ -77,9 +77,9 @@ interface Construct {
   /**
    * Check if the previous character code can precede this construct.
    *
-   * @see {@linkcode Guard}
+   * @see {@linkcode Previous}
    */
-  previous?: Guard | null | undefined
+  previous?: Previous | null | undefined
 
   /**
    * Resolve the events parsed by {@linkcode tokenize}.

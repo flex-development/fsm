@@ -6,7 +6,7 @@
 import type {
   ConstructPosition,
   Exiter,
-  Guard,
+  Previous,
   Resolver,
   Tokenizer
 } from '@flex-development/mark/parse'
@@ -50,10 +50,10 @@ describe('unit-d:interfaces/Construct', () => {
       .toEqualTypeOf<Nilable<boolean>>()
   })
 
-  it('should match [previous?: Guard | null | undefined]', () => {
+  it('should match [previous?: Previous | null | undefined]', () => {
     expectTypeOf<TestSubject>()
       .toHaveProperty('previous')
-      .toEqualTypeOf<Nilable<Guard>>()
+      .toEqualTypeOf<Nilable<Previous>>()
   })
 
   it('should match [resolve?: Resolver | null | undefined]', () => {

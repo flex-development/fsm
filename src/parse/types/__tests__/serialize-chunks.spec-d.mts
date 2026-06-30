@@ -3,11 +3,7 @@
  * @module mark/parse/types/tests/unit-d/SerializeChunks
  */
 
-import type {
-  Chunk,
-  Code,
-  SerializeOptions
-} from '@flex-development/mark/parse'
+import type { Chunk, SerializeOptions } from '@flex-development/mark/parse'
 import type TestSubject from '../serialize-chunks.mts'
 
 describe('unit-d:types/SerializeChunks', () => {
@@ -16,12 +12,9 @@ describe('unit-d:types/SerializeChunks', () => {
   })
 
   describe('parameters', () => {
-    it('should be callable with [(Chunk | NonNullable<Code>[])[], (SerializeOptions | boolean | null | undefined)?]', () => {
+    it('should be callable with [Chunk[], (SerializeOptions | boolean | null | undefined)?]', () => {
       // Arrange
-      type Expect = [
-        (Chunk | NonNullable<Code>[])[],
-        (SerializeOptions | boolean | null | undefined)?
-      ]
+      type Expect = [Chunk[], (SerializeOptions | boolean | null | undefined)?]
 
       // Expect
       expectTypeOf<TestSubject>().parameters.toEqualTypeOf<Expect>()
