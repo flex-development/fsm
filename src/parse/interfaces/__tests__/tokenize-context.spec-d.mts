@@ -7,6 +7,7 @@ import type {
   Code,
   Construct,
   ContainerState,
+  ContentType,
   CreateToken,
   DefineSkip,
   Event,
@@ -28,6 +29,12 @@ describe('unit-d:interfaces/TokenizeContext', () => {
     expectTypeOf<TestSubject>()
       .toHaveProperty('containerState')
       .toEqualTypeOf<Nilable<ContainerState>>()
+  })
+
+  it('should match [contentType?: ContentType | null | undefined]', () => {
+    expectTypeOf<TestSubject>()
+      .toHaveProperty('contentType')
+      .toEqualTypeOf<Nilable<ContentType>>()
   })
 
   it('should match [currentConstruct?: Construct | null | undefined]', () => {
